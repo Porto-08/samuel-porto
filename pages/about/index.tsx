@@ -22,6 +22,8 @@ import {
 } from "react-icons/si";
 import { useDarkMode } from "../../context/DarkModeContext";
 import { NextPage } from "next";
+import Image from "next/image";
+
 
 const About: NextPage = () => {
   const { dark } = useDarkMode();
@@ -33,9 +35,9 @@ const About: NextPage = () => {
       <div className={styles.about}>
         <div>
           {dark === true ? (
-            <img src={svgHeaderDark} alt="profile svg" />
+            <Image src={svgHeaderDark} alt="profile svg" />
           ) : (
-            <img src={svgHeaderLight} alt="profile svg" />
+            <Image src={svgHeaderLight} alt="profile svg" />
           )}
         </div>
 
