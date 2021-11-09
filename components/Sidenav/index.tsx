@@ -21,7 +21,7 @@ const Sidenav = () => {
 
         <ul>
           <li>
-            <Link href="/home" aria-label="Home">
+            <Link href="/" aria-label="Home">
               Home
             </Link>
           </li>

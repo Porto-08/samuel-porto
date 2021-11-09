@@ -21,15 +21,13 @@ const CardProject = ({
     >
       <div>
         <a href={link} target="_blank">
-          <img src={imgPath} alt="Project" />
+          <img src={imgPath} loading="eager" alt="Project" />
         </a>
       </div>
 
       <div className={styles.informations}>
         <h3>{name}</h3>
-        <p>
-          {description}
-        </p>
+        <p>{description}</p>
         <div className={styles.tecnologies}>
           {tecnologies.map((tecnologie) => {
             return <span>{tecnologie}</span>;
