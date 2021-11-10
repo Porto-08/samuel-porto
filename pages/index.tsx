@@ -7,10 +7,14 @@ import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Home: NextPage = () => {
   return (
-    <div
-      className={`${styles.container}  animate__animated animate__fadeIn animate__slow`}
-    >
-      <Image src={profile} height={350} width={350} alt="profile picture" title="Profile picture" />
+    <div className={`${styles.container}  animate__animated animate__fadeIn`}>
+      <Image
+        src={profile}
+        height={350}
+        width={350}
+        alt="profile picture"
+        title="Profile picture"
+      />
 
       <div className={styles.description}>
         <h2 title="Me!">Samuel Porto</h2>

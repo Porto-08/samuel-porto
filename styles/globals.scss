@@ -22,6 +22,7 @@
   --shadow-img-color: rgba(0, 0, 0, 0.9);
 }
 
+
 h1,
 h2,
 h3,
@@ -52,7 +53,8 @@ body {
 
   &::-webkit-scrollbar {
     width: 0px;
-    height: 2px; /* width of the entire scrollbar */
+    height: 2px;
+    /* width of the entire scrollbar */
   }
 }
 

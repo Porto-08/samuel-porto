@@ -13,7 +13,15 @@ const Sidenav = () => {
         className={styles.changeMode}
         onClick={setDarkState}
       >
-        {dark === true ? <FaMoon /> : <FaSun />}
+        {dark === true ? (
+          <i>
+            <FaMoon />
+          </i>
+        ) : (
+          <i>
+            <FaSun />
+          </i>
+        )}
       </button>
 
       <nav className={styles.navContainer}>
