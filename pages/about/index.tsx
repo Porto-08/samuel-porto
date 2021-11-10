@@ -52,7 +52,7 @@ const About: NextPage = () => {
               <p>
                 I had the first contact with programming in the technical course
                 that I realized, since then it was a new world in my life, where
-                I'm always curious to know about new technologies! Short plenty
+                I&apos;m always curious to know about new technologies! Short plenty
                 of time to cool off and relax with colleagues and friends,
                 whether playing or having a good conversation. I have a goal of
                 living abroad (Brazil) for the best living and working
@@ -92,15 +92,24 @@ const About: NextPage = () => {
               <a
                 href="https://api.whatsapp.com/send?phone=5511980540272"
                 target="_blank"
+                rel="noreferrer"
               >
                 <FaWhatsapp />
               </a>
 
-              <a href="https://github.com/Porto-08" target="_blank">
+              <a
+                href="https://github.com/Porto-08"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaGithub />
               </a>
 
-              <a href="https://linkedin.com/in/samuelporto" target="_blank">
+              <a
+                href="https://linkedin.com/in/samuelporto"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaLinkedin />
               </a>
             </div>
@@ -124,7 +133,11 @@ const About: NextPage = () => {
 
             <ul>
               <li>
-                <a href="https://www.bizsys.com.br/" target="_blank">
+                <a
+                  href="https://www.bizsys.com.br/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Website
                 </a>
               </li>
@@ -132,17 +145,21 @@ const About: NextPage = () => {
               <span>|</span>
 
               <li>
-                <a href="https://reactjs.org/" target="_blank">
+                <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
                   ReactJs
                 </a>
               </li>
               <li>
-                <a href="https://nodejs.org/en/" target="_blank">
+                <a
+                  href="https://nodejs.org/en/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   NodeJs
                 </a>
               </li>
               <li>
-                <a href="https://www.php.net/" target="_blank">
+                <a href="https://www.php.net/" target="_blank" rel="noreferrer">
                   Php
                 </a>
               </li>
@@ -150,12 +167,17 @@ const About: NextPage = () => {
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Javascript
                 </a>
               </li>
               <li>
-                <a href="https://sass-lang.com/" target="_blank">
+                <a
+                  href="https://sass-lang.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Sass
                 </a>
               </li>
@@ -176,7 +198,11 @@ const About: NextPage = () => {
 
             <ul>
               <li>
-                <a href="https://www.recodepro.org.br/" target="_blank">
+                <a
+                  href="https://www.recodepro.org.br/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Website
                 </a>
               </li>
@@ -184,17 +210,21 @@ const About: NextPage = () => {
               <span>|</span>
 
               <li>
-                <a href="https://reactjs.org/" target="_blank">
+                <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
                   ReactJs
                 </a>
               </li>
               <li>
-                <a href="https://nodejs.org/en/" target="_blank">
+                <a
+                  href="https://nodejs.org/en/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   React Native
                 </a>
               </li>
               <li>
-                <a href="https://www.php.net/" target="_blank">
+                <a href="https://www.php.net/" target="_blank" rel="noreferrer">
                   NodeJs
                 </a>
               </li>
@@ -202,6 +232,7 @@ const About: NextPage = () => {
                 <a
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Javascript
                 </a>
@@ -215,18 +246,22 @@ const About: NextPage = () => {
             <h3>Front-end</h3>
 
             <div className={styles.skillContent}>
-              <a href="https://reactjs.org/" target="_blank">
+              <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
                 <FaReact />
 
                 <span>React</span>
               </a>
 
-              <a href="https://sass-lang.com/" target="_blank">
+              <a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
                 <FaSass />
                 <span>Sass</span>
               </a>
 
-              <a href="https://getbootstrap.com/" target="_blank">
+              <a
+                href="https://getbootstrap.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaBootstrap />
                 <span>Bootstrap</span>
               </a>
@@ -234,12 +269,17 @@ const About: NextPage = () => {
               <a
                 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                 target="_blank"
+                rel="noreferrer"
               >
                 <SiJavascript />
                 <span>JavaScript</span>
               </a>
 
-              <a href="https://www.typescriptlang.org/" target="_blank">
+              <a
+                href="https://www.typescriptlang.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <SiTypescript />
                 <span>Typescript</span>
               </a>
@@ -250,13 +290,13 @@ const About: NextPage = () => {
             <h3>Back-end</h3>
 
             <div className={styles.skillContent}>
-              <a href="https://nodejs.org/en/" target="_blank">
+              <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
                 <FaNode />
 
                 <span>NodeJs</span>
               </a>
 
-              <a href="https://www.php.net/" target="_blank">
+              <a href="https://www.php.net/" target="_blank" rel="noreferrer">
                 <FaPhp />
                 <span>Php</span>
               </a>
@@ -267,27 +307,35 @@ const About: NextPage = () => {
             <h3>Tools</h3>
 
             <div className={styles.skillContent}>
-              <a href="https://git-scm.com/" target="_blank">
+              <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
                 <FaGit />
                 <span>Git</span>
               </a>
 
-              <a href="https://www.mysql.com/" target="_blank">
+              <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
                 <SiMysql />
                 <span>MySql</span>
               </a>
 
-              <a href="https://www.mongodb.com/" target="_blank">
+              <a
+                href="https://www.mongodb.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <SiMongodb />
                 <span>MongoDB</span>
               </a>
 
-              <a href="https://insomnia.rest/" target="_blank">
+              <a href="https://insomnia.rest/" target="_blank" rel="noreferrer">
                 <SiInsomnia />
                 <span>Insomnia</span>
               </a>
 
-              <a href="https://code.visualstudio.com/" target="_blank">
+              <a
+                href="https://code.visualstudio.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <SiVisualstudiocode />
                 <span>VS Code</span>
               </a>

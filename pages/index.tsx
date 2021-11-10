@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         <h2 title="Me!">Samuel Porto</h2>
 
         <p>
-          I'm a FullStack Developer who loves to learn and solve problems. I
+          I&apos;m a FullStack Developer who loves to learn and solve problems. I
           love to pass my knowledge to other people!
         </p>
 
@@ -29,6 +29,7 @@ const Home: NextPage = () => {
             href="https://github.com/Porto-08"
             target="_blank"
             title="My github"
+            rel="noreferrer"
           >
             <FaGithub />
           </a>
@@ -36,6 +37,7 @@ const Home: NextPage = () => {
             href="https://www.instagram.com/porto__0/"
             target="_blank"
             title="My instagram"
+            rel="noreferrer"
           >
             <FaInstagram />
           </a>
@@ -43,6 +45,7 @@ const Home: NextPage = () => {
             href="https://www.linkedin.com/in/samuelporto/"
             target="_blank"
             title="My linkedin"
+            rel="noreferrer"
           >
             <FaLinkedin />
           </a>
@@ -50,6 +53,7 @@ const Home: NextPage = () => {
             href="https://api.whatsapp.com/send?phone=5511980540272"
             target="_blank"
             title="My WhatsApp"
+            rel="noreferrer"
           >
             <FaWhatsapp />
           </a>
