@@ -1,4 +1,5 @@
 import styles from "./styles.module.scss";
+import Image from "next/image"
 
 interface cardProjectInterface {
   key: number;
@@ -22,7 +23,7 @@ const CardProject = ({
     >
       <div>
         <a href={link} target="_blank" rel="noreferrer">
-          <img src={imgPath} loading="eager" alt="Project" />
+          <Image width={500} height={350} layout="responsive" src={imgPath} loading="lazy" alt="Project" />
         </a>
       </div>
 

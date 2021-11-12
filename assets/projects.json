@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Dogs",
     "description": "A social network of dogs. You can register and post photos, analyze data from your photos, and see photos of other people. Project to solidify knowledge in Javascript and ReactJS and their libraries.",
-    "pathPhoto": "./dogs.png",
+    "pathPhoto": "/dogs.png",
     "type": "front",
     "link": "https://github.com/Porto-08/Dogs",
     "tecnologies": ["React"]
@@ -12,7 +12,7 @@
     "id": 2,
     "name": "api-rest-compliments",
     "description": "Project carried out with NLW Together to learn Typescript and practice NodeJs. The first project I used typescript on the backend, at first it's more work, but it's worth the effort to keep the code easier to maintain.",
-    "pathPhoto": "./nodejs.jpg",
+    "pathPhoto": "/nodejs.jpg",
     "type": "back",
     "link": "https://github.com/Porto-08/API-COMPLIMENTS",
     "tecnologies": ["Node"]
@@ -21,7 +21,7 @@
     "id": 3,
     "name": "api-rest-crud-node",
     "description": "Rest API with CRUD functionalities performed in NodeJs with MySQl. Project carried out for back-end studies and practices. How fast and easy to make a CRUD with node, right?",
-    "pathPhoto": "./nodejs.jpg",
+    "pathPhoto": "/nodejs.jpg",
     "type": "back",
     "link": "https://github.com/Porto-08/API-REST-CRUD",
     "tecnologies": ["Node"]
@@ -31,7 +31,7 @@
     "id": 4,
     "name": "Wildbeast",
     "description": "Project carried out to learn Grid layout. It consists of a blog where you can see information about certain animals (only Lobo available). Grid really makes responsiveness very smooth to do.",
-    "pathPhoto": "./wildbeast.png",
+    "pathPhoto": "/wildbeast.png",
     "type": "front",
     "link": "https://porto-08.github.io/Wildbeast/",
     "tecnologies": ["Html", "Css"]
@@ -42,7 +42,7 @@
     "id": 5,
     "name": "PodCastr",
     "description": "Project carried out together with NLW to improve knowledge in React and Typescript. It consists of an application for streaming Podcasts with a customized player. All functions performed on the front-end.",
-    "pathPhoto": "./podcats.png",
+    "pathPhoto": "/podcats.png",
     "type": "front",
     "link": "https://github.com/Porto-08/PodCastr",
     "tecnologies": ["React", "Typescript", "Sass"]
@@ -51,7 +51,7 @@
     "id": 6,
     "name": "login-ui",
     "description": "I've reposted this artwork from driblle.com for code. For Sass and React study and practice only. Sass has opened up a whole new range of options for me, I feel much more comfortable using it, just advantages.",
-    "pathPhoto": "./login.png",
+    "pathPhoto": "/login.png",
     "type": "front",
     "link": "https://login-ui-porto.herokuapp.com/",
     "tecnologies": ["React", "Sass"]
@@ -60,7 +60,7 @@
     "id": 7,
     "name": "api-rest-laravel",
     "description": "Project for learning the most used Framework in the world! API performed based on REST concepts. For login I used JWT (Json Web Token), very simple and practical to use.",
-    "pathPhoto": "./laravel.png",
+    "pathPhoto": "/laravel.png",
     "type": "back",
     "link": "https://github.com/Porto-08/rest-api-laravel",
     "tecnologies": ["Laravel", "PHP"]
@@ -69,7 +69,7 @@
     "id": 8,
     "name": "Flexblog",
     "description": "Project to practice CSS Flexbox. My journey to improve CSS started here, Flexbox helps a lot in layout constructions before complex with only the use of tables, it made life much easier for the Developer! Together with Grid it is possible to build cool layouts!",
-    "pathPhoto": "./flexblog.png",
+    "pathPhoto": "/flexblog.png",
     "type": "front",
     "link": "https://porto-08.github.io/flexblog/",
     "tecnologies": ["Html", "Css"]
@@ -78,7 +78,7 @@
     "id": 9,
     "name": "api-devhouse",
     "description": "The api was developed for study purposes, it consists of a real estate rental application. It opened my mind to the possibilities of NodeJS.",
-    "pathPhoto": "./nodejs.jpg",
+    "pathPhoto": "/nodejs.jpg",
     "type": "back",
     "link": "https://github.com/Porto-08/api-devhouse",
     "tecnologies": ["Node"]
@@ -87,7 +87,7 @@
     "id": 10,
     "name": "Bikecraft",
     "description": "The origin. One of the projects where I learned the most about Html, CSS and JS. I fell in love with the web here. Bikcraft is an institutional site and was created just for studies.",
-    "pathPhoto": "./bikecraft.png",
+    "pathPhoto": "/bikecraft.png",
     "type": "front",
     "link": "https://github.com/Porto-08/Bikecraft",
     "tecnologies": ["Html", "Css"]
@@ -96,7 +96,7 @@
     "id": 11,
     "name": "Letmeask",
     "description": "Project carried out with NLW. For streamers we created an application where you can create a room and answer the most requested questions by your audience, I believe it brings fans closer to their inspirations.",
-    "pathPhoto": "./letmeask.png",
+    "pathPhoto": "/letmeask.png",
     "type": "front",
     "link": "https://github.com/Porto-08/letmeask",
     "tecnologies": ["React", "Typescript", "Sass"]
@@ -105,9 +105,9 @@
     "id": 12,
     "name": "MoveIt",
     "description": "The Project consists of an application that from the beginning of a cycle you need to focus and not get distracted in what you will be working on. After the end of the cycle, a challenge is given to exercise the body or eyes (It's random).",
-    "pathPhoto": "./moveit.png",
+    "pathPhoto": "/moveit.png",
     "type": "front",
-    "link": "https://github.com/Porto-08/MoveIt",
+    "link": "https://moveit-delta-eight.vercel.app/",
     "tecnologies": ["React", "Typescript", "Sass"]
   }
 ]

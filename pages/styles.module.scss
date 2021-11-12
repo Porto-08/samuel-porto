@@ -13,13 +13,27 @@
     height: 350px;
     border-radius: 50%;
 
-    //box-shadow: 5px 10px 20px 0px var(--shadow-img-color);
+    box-shadow: 5px 10px 20px 0px var(--shadow-img-color);
 
     @media (max-width: 768px) {
       width: 250px;
       height: 250px;
     }
   }
+
+  span {
+    overflow: visible !important;
+
+    img {
+      width: 350px;
+      height: 350px;
+      border-radius: 50%;
+
+      box-shadow: 0 4px 32px 0 rgba(0, 0, 0, 0.5);
+    }
+  }
+
+
 
   .description {
     display: flex;
@@ -46,7 +60,7 @@
       color: var(--text-color);
     }
 
-    > div {
+    >div {
       display: flex;
       gap: 30px;
 
@@ -71,7 +85,7 @@
       padding: 0 10px;
       text-align: center;
       align-items: center;
-      
+
     }
   }
 }

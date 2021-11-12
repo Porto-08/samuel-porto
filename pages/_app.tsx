@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
         <meta
           property="og:url"
-          content="https://porto-08.github.io/portfolio/"
+          content="https://portfolio-nine-rose-40.vercel.app/"
         />
         <meta property="og:type" content="portfolio" />
         <meta property="og:title" content="Samuel Porto - Portfolio" />

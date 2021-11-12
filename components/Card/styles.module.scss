@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
 
   background: var(--background-side-color);
   border-radius: 5px;
@@ -12,8 +11,6 @@
 
   img {
     border-radius: 5px;
-    height: clamp(300px, 20vw, 400px);
-    width: 100%;
     object-fit: cover;
 
     z-index: 1;
@@ -26,7 +23,7 @@
 
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 30px;
 
     justify-content: center;
     align-items: flex-start;
@@ -81,7 +78,7 @@
     }
 
     @media(max-width: 1400px) {
-      gap: 10px;
+      gap: 20px;
     }
   }
 

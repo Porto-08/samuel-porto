@@ -51,12 +51,12 @@ const About: NextPage = () => {
 
               <p>
                 I had the first contact with programming in the technical course
-                that I realized, since then it was a new world in my life, where
-                I&apos;m always curious to know about new technologies! Short plenty
-                of time to cool off and relax with colleagues and friends,
-                whether playing or having a good conversation. I have a goal of
-                living abroad (Brazil) for the best living and working
-                conditions.
+                where I loved this new world in my life, where I always have
+                curiosity to learn new technologies! I really like to pass hours
+                talking with my colleagues and friends about games, movies and,
+                of course, programming.
+                <br />
+                <strong>#Never stop learning!</strong>
               </p>
             </section>
 
