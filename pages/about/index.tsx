@@ -19,6 +19,7 @@ import {
   SiMongodb,
   SiInsomnia,
   SiVisualstudiocode,
+  SiNextdotjs,
 } from "react-icons/si";
 import { useDarkMode } from "../../context/DarkModeContext";
 import { NextPage } from "next";
@@ -246,6 +247,11 @@ const About: NextPage = () => {
             <h3>Front-end</h3>
 
             <div className={styles.skillContent}>
+            <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+                <SiNextdotjs />
+
+                <span>NextJs</span>
+              </a>
               <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
                 <FaReact />
 

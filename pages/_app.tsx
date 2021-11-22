@@ -1,10 +1,16 @@
 import "../styles/globals.scss";
 import "../styles/reset.scss";
+import "animate.css";
 import type { AppProps } from "next/app";
 import { DarkModeStorage } from "../context/DarkModeContext";
 import Sidenav from "../components/Sidenav";
-import "animate.css";
 import Head from "next/head";
+import Router from "next/router";
+import NProgress from "nprogress";
+
+Router.events.on("routeChangeStart", () => NProgress.start());
+Router.events.on("routeChangeComplete", () => NProgress.done());
+Router.events.on("routeChangeError", () => NProgress.done());
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -48,7 +54,8 @@ function MyApp({ Component, pageProps }: AppProps) {
           href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
         />
-        
+        <link rel="stylesheet" type="text/css" href="/nprogress.css" />
+
         <title>Samuel Porto - Portfolio</title>
       </Head>
 

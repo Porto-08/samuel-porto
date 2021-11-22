@@ -23,7 +23,7 @@ const CardProject = ({
     >
       <div>
         <a href={link} target="_blank" rel="noreferrer">
-          <Image width={500} height={350} layout="responsive" src={imgPath} loading="lazy" alt="Project" />
+          <img src={imgPath} loading="lazy" alt="Project Card" title={name} />
         </a>
       </div>
 

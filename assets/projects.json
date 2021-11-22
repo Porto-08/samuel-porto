@@ -1,13 +1,14 @@
 [
   {
-    "id": 1,
-    "name": "Dogs",
-    "description": "A social network of dogs. You can register and post photos, analyze data from your photos, and see photos of other people. Project to solidify knowledge in Javascript and ReactJS and their libraries.",
-    "pathPhoto": "/dogs.png",
+    "id": 13,
+    "name": "Games Free",
+    "description": "",
+    "pathPhoto": "/games_free.png",
     "type": "front",
-    "link": "https://github.com/Porto-08/Dogs",
-    "tecnologies": ["React"]
+    "link": "https://games-free-to-play.vercel.app/",
+    "tecnologies": ["React", "Typescript", "Sass", "NextJs"]
   },
+
   {
     "id": 2,
     "name": "api-rest-compliments",
@@ -26,6 +27,15 @@
     "link": "https://github.com/Porto-08/API-REST-CRUD",
     "tecnologies": ["Node"]
   },
+  {
+    "id": 1,
+    "name": "Dogs",
+    "description": "A social network of dogs. You can register and post photos, analyze data from your photos, and see photos of other people. Project to solidify knowledge in Javascript and ReactJS and their libraries.",
+    "pathPhoto": "/dogs.png",
+    "type": "front",
+    "link": "https://github.com/Porto-08/Dogs",
+    "tecnologies": ["React"]
+  },
 
   {
     "id": 4,
@@ -37,7 +47,6 @@
     "tecnologies": ["Html", "Css"]
   },
 
-  
   {
     "id": 5,
     "name": "PodCastr",
