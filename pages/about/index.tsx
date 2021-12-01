@@ -51,11 +51,10 @@ const About: NextPage = () => {
               <h1>Samuel Porto - Fullstack Developer</h1>
 
               <p>
-                I had the first contact with programming in the technical course
-                where I loved this new world in my life, where I always have
-                curiosity to learn new technologies! I really like to pass hours
-                talking with my colleagues and friends about games, movies and,
-                of course, programming.
+                Tive o primeiro contato com programação em um curso tecnico,
+                onde me apaixonei por este novo mundo na minha vida. Eu gosto
+                muito de ajudar a resolver os problemas das pessoas e de
+                compartilhar meus conhecimentos com elas.
                 <br />
                 <strong>#Never stop learning!</strong>
               </p>
@@ -64,27 +63,24 @@ const About: NextPage = () => {
             <section className={styles.listProfile}>
               <ul>
                 <li>
-                  Birthday: <span>06/12/2001</span>
+                  Idade: <span>20</span>
                 </li>
                 <li>
-                  Age: <span>20</span>
-                </li>
-                <li>
-                  Location: <span>São Paulo - Brazil</span>
+                  To em: <span>São Paulo - Brazil</span>
                 </li>
                 <li>
                   Email: <span>samuelalcala2001@outlook.com</span>
                 </li>
                 <li>
-                  Phone: <span>55+ (11) 980540272</span>
+                  Celular (Whats): <span>55+ (11) 980540272</span>
                 </li>
                 <li>
-                  Study:
-                  <span>Impacta College - 1º Semester</span>
+                  Cursando:
+                  <span>Faculdade Impactas - 1º Semestre</span>
                 </li>
                 <li>
-                  Formation:
-                  <span>Etec - Systems Development</span>
+                  Formação:
+                  <span>Etec - Desenvolvimentos de Sistemas</span>
                 </li>
               </ul>
             </section>
@@ -123,13 +119,13 @@ const About: NextPage = () => {
           <div className={styles.experienceBox}>
             <header>
               <h4>Bizsys (startup) - Fullstack Developer</h4>
-              <span>Jun 2021 - Present</span>
+              <span>Jun 2021 - Atual</span>
             </header>
 
             <p>
-              Web Apps development with React focused on responsiveness.
-              Development and maintenance of REST APIs with NodeJs and PHP.
-              Daily meetings about ongoing projects.
+              Desenvolvimento de web apps e projetos especias com ReactJs e
+              Unity. Desenvolvimento e Manutenção de APIs Rest com NodeJs e PHP
+              (Laravel)
             </p>
 
             <ul>
@@ -186,15 +182,16 @@ const About: NextPage = () => {
           </div>
           <div className={styles.experienceBox}>
             <header>
-              <h4>RecodePro (startup) - Instructor</h4>
-              <span>Dec 2020 - March 2021</span>
+              <h4>RecodePro (startup) - Instrutor</h4>
+              <span>Dez 2020 - Março 2021</span>
             </header>
 
             <p>
-              Monitoring students three times a week during classes, mentoring
-              (classes) twice a week, supporting students, correcting projects,
-              creating activities and questions for class development, decision
-              making with management and co-workers.
+              Monitoria dos alunos três vezes por semana durante as aulas,
+              mentorias (aulas) duas vezes por semana, suporte aos alunos,
+              correção de projetos, criação de atividades e questões para
+              desenvolvimento da aula, tomadas de decisões junto a gestão e
+              colegas de trabalho.
             </p>
 
             <ul>
@@ -247,7 +244,7 @@ const About: NextPage = () => {
             <h3>Front-end</h3>
 
             <div className={styles.skillContent}>
-            <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+              <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
                 <SiNextdotjs />
 
                 <span>NextJs</span>

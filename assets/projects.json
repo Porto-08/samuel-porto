@@ -2,7 +2,7 @@
   {
     "id": 13,
     "name": "Games Free",
-    "description": "",
+    "description": "Senti que precisava produzir algo útil e também estudar NextJs, assim surgiu o 'Games Free'! O site consiste em encontrar novas aventuras em jogos gratuitos, poder se divertir sem precisar gastar dinheiro.",
     "pathPhoto": "/games_free.png",
     "type": "front",
     "link": "https://games-free-to-play.vercel.app/",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "api-rest-compliments",
-    "description": "Project carried out with NLW Together to learn Typescript and practice NodeJs. The first project I used typescript on the backend, at first it's more work, but it's worth the effort to keep the code easier to maintain.",
+    "description": "Projeto realizado junto a NLW para estudos de Typescript e NodeJs. Consiste em usuários enviarem elogios uns para os outros.",
     "pathPhoto": "/nodejs.jpg",
     "type": "back",
     "link": "https://github.com/Porto-08/API-COMPLIMENTS",
@@ -21,7 +21,7 @@
   {
     "id": 3,
     "name": "api-rest-crud-node",
-    "description": "Rest API with CRUD functionalities performed in NodeJs with MySQl. Project carried out for back-end studies and practices. How fast and easy to make a CRUD with node, right?",
+    "description": "API Rest CRUD para prática e estudos de NodeJs.",
     "pathPhoto": "/nodejs.jpg",
     "type": "back",
     "link": "https://github.com/Porto-08/API-REST-CRUD",
@@ -30,7 +30,7 @@
   {
     "id": 1,
     "name": "Dogs",
-    "description": "A social network of dogs. You can register and post photos, analyze data from your photos, and see photos of other people. Project to solidify knowledge in Javascript and ReactJS and their libraries.",
+    "description": "Uma rede social de cachorros. É possivel se cadastrar e postar fotos, analisar dados de suas fotos e ver fotos de outras pessoas. Projeto para solidificar conhecimentos em Javascript e ReactJS e suas bibliotecas.",
     "pathPhoto": "/dogs.png",
     "type": "front",
     "link": "https://github.com/Porto-08/Dogs",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "name": "PodCastr",
-    "description": "Project carried out together with NLW to improve knowledge in React and Typescript. It consists of an application for streaming Podcasts with a customized player. All functions performed on the front-end.",
+    "description": "Projeto realizado com a NLW para prática de Typescript com ReactJs. O usuário pode ouvir PodCast atráves de streaming com um Player customizado, não é necessário login.",
     "pathPhoto": "/podcats.png",
     "type": "front",
     "link": "https://github.com/Porto-08/PodCastr",
@@ -59,7 +59,7 @@
   {
     "id": 6,
     "name": "login-ui",
-    "description": "I've reposted this artwork from driblle.com for code. For Sass and React study and practice only. Sass has opened up a whole new range of options for me, I feel much more comfortable using it, just advantages.",
+    "description": "Repassei esta arte do site driblle.com para código. Apenas para estudo e prática de Sass e React.",
     "pathPhoto": "/login.png",
     "type": "front",
     "link": "https://login-ui-porto.herokuapp.com/",
@@ -68,7 +68,7 @@
   {
     "id": 7,
     "name": "api-rest-laravel",
-    "description": "Project for learning the most used Framework in the world! API performed based on REST concepts. For login I used JWT (Json Web Token), very simple and practical to use.",
+    "description": "Projeto para estudos do framework mais usado do mundo! Criei. API produzida com base em conceitos REST. Login realizado com Json Web Token (JWT).",
     "pathPhoto": "/laravel.png",
     "type": "back",
     "link": "https://github.com/Porto-08/rest-api-laravel",
@@ -77,7 +77,7 @@
   {
     "id": 8,
     "name": "Flexblog",
-    "description": "Project to practice CSS Flexbox. My journey to improve CSS started here, Flexbox helps a lot in layout constructions before complex with only the use of tables, it made life much easier for the Developer! Together with Grid it is possible to build cool layouts!",
+    "description": "Projeto para pratica de Css Flexbox.",
     "pathPhoto": "/flexblog.png",
     "type": "front",
     "link": "https://porto-08.github.io/flexblog/",
@@ -86,7 +86,7 @@
   {
     "id": 9,
     "name": "api-devhouse",
-    "description": "The api was developed for study purposes, it consists of a real estate rental application. It opened my mind to the possibilities of NodeJS.",
+    "description": "A api foi desenvolvida para fins de estudo, ela consiste em uma aplicação de alugueis de imóveis.",
     "pathPhoto": "/nodejs.jpg",
     "type": "back",
     "link": "https://github.com/Porto-08/api-devhouse",
@@ -95,7 +95,7 @@
   {
     "id": 10,
     "name": "Bikecraft",
-    "description": "The origin. One of the projects where I learned the most about Html, CSS and JS. I fell in love with the web here. Bikcraft is an institutional site and was created just for studies.",
+    "description": "O começo. Um dos projetos que mais aprendi sobre HTML, Css, e Javascript. Bikcraft é um site institucional para divulgação de uma loja de bicicletas.",
     "pathPhoto": "/bikecraft.png",
     "type": "front",
     "link": "https://github.com/Porto-08/Bikecraft",
@@ -104,7 +104,7 @@
   {
     "id": 11,
     "name": "Letmeask",
-    "description": "Project carried out with NLW. For streamers we created an application where you can create a room and answer the most requested questions by your audience, I believe it brings fans closer to their inspirations.",
+    "description": "Projeto realizado junto a NLW. Projeto consiste em uma aplicação de enviar perguntas para streamers. Login realizado com Firebase, com uma conta Google.",
     "pathPhoto": "/letmeask.png",
     "type": "front",
     "link": "https://github.com/Porto-08/letmeask",
@@ -113,7 +113,7 @@
   {
     "id": 12,
     "name": "MoveIt",
-    "description": "The Project consists of an application that from the beginning of a cycle you need to focus and not get distracted in what you will be working on. After the end of the cycle, a challenge is given to exercise the body or eyes (It's random).",
+    "description": "Projeto realizado junto a NLW. O Projeto consiste em uma aplicação que a partir do início de um ciclo você precisa se focar e não se distrair no que irá trabalhar. Após o fim do ciclo é passado um desafio para exercitar o corpo ou os olhos (É aleatório).",
     "pathPhoto": "/moveit.png",
     "type": "front",
     "link": "https://moveit-delta-eight.vercel.app/",

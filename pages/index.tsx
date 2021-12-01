@@ -20,8 +20,8 @@ const Home: NextPage = () => {
         <h2 title="Me!">Samuel Porto</h2>
 
         <p>
-          I&apos;m a FullStack Developer who loves to learn and solve problems. I
-          love to pass my knowledge to other people!
+          Sou um Desenvolvedor FullStack que ama resolver problemas e passar
+          meus conhecimentos para outras pessoas. 
         </p>
 
         <div>

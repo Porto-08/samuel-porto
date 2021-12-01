@@ -35,12 +35,12 @@ const Sidenav = () => {
           </li>
           <li>
             <Link href="about" aria-label="About Me">
-              About
+              Sobre
             </Link>
           </li>
           <li>
             <Link href="projects" aria-label="My Projects">
-              Projects
+              Projetos
             </Link>
           </li>
         </ul>

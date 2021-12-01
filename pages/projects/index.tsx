@@ -73,7 +73,7 @@ const Projects: NextPage = () => {
       >
         <ul className={styles.filterList}>
           <li>
-            <h1>My Projects</h1>
+            <h1>Meus Projetos</h1>
           </li>
           <li onClick={() => setFilter("")} id="all">
             All
