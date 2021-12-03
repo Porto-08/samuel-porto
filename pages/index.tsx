@@ -14,6 +14,7 @@ const Home: NextPage = () => {
         width={350}
         alt="profile picture"
         title="Profile picture"
+        priority
       />
 
       <div className={styles.description}>

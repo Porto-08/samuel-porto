@@ -16,8 +16,8 @@
 
   h1 {
     text-align: left;
-    font-size: clamp(1.75rem, 2vw, 2rem);
-    padding: 0 0 30px 0;
+    font-size: clamp(1.5rem, 2vw, 2rem);
+    padding: 0 0 20px 0;
   }
 
   .about {
@@ -90,7 +90,7 @@
 
     @media (max-width: 1000px) {
       grid-template-columns: 1fr;
-      gap: 0px;
+      gap: 20px;
     }
   }
 
