@@ -1,12 +1,15 @@
 import "../styles/globals.scss";
 import "../styles/reset.scss";
 import "animate.css";
+import 'react-toastify/dist/ReactToastify.css';
 import type { AppProps } from "next/app";
 import { DarkModeStorage } from "../context/DarkModeContext";
 import Sidenav from "../components/Sidenav";
 import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
+import{ init } from 'emailjs-com';
+init("user_22xaQbtww7rTCYUpasb5c");
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());

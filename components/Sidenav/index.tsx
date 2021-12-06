@@ -43,6 +43,11 @@ const Sidenav = () => {
               Projetos
             </Link>
           </li>
+          <li>
+            <Link href="contact" aria-label="Contact Me">
+              Contato
+            </Link>
+          </li>
         </ul>
       </nav>
     </aside>
