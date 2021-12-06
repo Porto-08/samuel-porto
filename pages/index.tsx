@@ -10,8 +10,8 @@ const Home: NextPage = () => {
     <div className={`${styles.container}  fadeInTop`}>
       <Image
         src={profile}
-        height={350}
-        width={350}
+        height={325}
+        width={325}
         alt="profile picture"
         title="Profile picture"
         priority
