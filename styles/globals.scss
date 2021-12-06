@@ -54,7 +54,6 @@ body {
   &::-webkit-scrollbar {
     width: 0px;
     height: 2px;
-    /* width of the entire scrollbar */
   }
 }
 
@@ -99,5 +98,20 @@ body {
 .active {
   color: var(--hover-text-color) !important;
   text-decoration: underline !important;
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeInleft {
+  animation: fadeInLeft .9s ease both;
 }
 

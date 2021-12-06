@@ -45,6 +45,10 @@ const Contact = () => {
         toast.success("Email enviado com sucesso!", {
           theme: "dark",
         });
+
+        name.current.value = "";
+        email.current.value = "";
+        textMessage.current.value = "";
       }
     } catch (err) {
       toast.error(
@@ -64,6 +68,7 @@ const Contact = () => {
       <ToastContainer />
 
       <h1 title="Pagina de Contato">Contato</h1>
+      <span>Entre em contato para que possamos conversar!</span>
 
       <form ref={form} onSubmit={sendEmail}>
         <section>
@@ -82,6 +87,7 @@ const Contact = () => {
             placeholder="Seu Email: email@email.com"
             ref={email}
             required
+            inputMode="email"
           />
         </section>
 
@@ -97,7 +103,7 @@ const Contact = () => {
 
         {loading === true ? (
           <button type="submit" title="Enviar email" disabled>
-            Carregando...
+            <div className={styles.loader}></div>
           </button>
         ) : (
           <button type="submit" title="Enviar email">
