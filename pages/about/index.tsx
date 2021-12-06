@@ -35,7 +35,7 @@ const About: NextPage = () => {
         <title>Samuel Porto - About</title>
       </Head>
       <div
-        className={`${styles.container}  animate__animated animate__fadeInLeft`}
+        className={`${styles.container}  fadeInTop`}
       >
         <div className={styles.about}>
           <div>
@@ -76,7 +76,7 @@ const About: NextPage = () => {
                 </li>
                 <li>
                   Cursando:
-                  <span>Faculdade Impactas - 1º Semestre</span>
+                  <span>Faculdade Impacta - 1º Semestre</span>
                 </li>
                 <li>
                   Formação:

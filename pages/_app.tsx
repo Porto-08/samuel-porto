@@ -1,6 +1,6 @@
 import "../styles/globals.scss";
 import "../styles/reset.scss";
-import "animate.css";
+// import "animate.css";
 import 'react-toastify/dist/ReactToastify.css';
 import type { AppProps } from "next/app";
 import { DarkModeStorage } from "../context/DarkModeContext";

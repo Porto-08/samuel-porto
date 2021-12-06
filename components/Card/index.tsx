@@ -19,7 +19,7 @@ const CardProject = ({
 }: cardProjectInterface) => {
   return (
     <div
-      className={`${styles.container} animate__animated animate__fadeIn`}
+      className={`${styles.container} fadeInTop`}
     >
       <div>
         <a href={link} target="_blank" rel="noreferrer">

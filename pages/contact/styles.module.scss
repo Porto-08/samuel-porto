@@ -1,10 +1,7 @@
 .container {
-  
-
   padding: 50px 20px;
   height: 100%;
   width: 100%;
-  
 
   h1 {
     font-size: clamp(2.5rem, 2.75vw, 3.5rem);
@@ -21,11 +18,11 @@
     width: 100%;
     padding: 5px;
 
-    color: #fff;
+    color: var(--placeholder-color);
     font-size: clamp(1rem, 1.15vw, 1.25rem);
 
     &::placeholder {
-      color: #fff;
+      color: var(--placeholder-color);
       opacity: 0.6;
     }
   }
@@ -58,29 +55,74 @@
 
     button {
       display: flex;
-      align-content: center;
-      justify-content: center;
+      align-items: center;
+      justify-items: center;
 
-      gap: 20px;
-      padding: 10px 75px;
+      gap: 15px;
+      padding: 10px 20px;
 
       border: none;
       border-radius: 5px;
-      background: var(--hover-text-color);
+      background: var(--title-color);
       color: #fff;
       cursor: pointer;
       transition: all 0.2s ease;
 
       font-size: 1.5rem;
 
+      span {
+        display: flex;
+        flex-direction: column;
+
+        .fire {
+          display: none;
+          position: relative;
+          left: -9px;
+          bottom: 5px;
+          height: 15px;
+        }
+
+        .rocket {
+          position: relative;
+          left: 5px;
+          color: #fff;
+        }
+      }
+
       &:hover {
-        background: var(--title-color);
+        background: var(--hover-text-color);
         transform: scale(1.05);
+        color: #fff;
+
+        .fire,
+        .rocket {
+          animation: rocket 0.5s ease-in-out infinite alternate;
+          display: inline;
+        }
+
+        .fire {
+          color: #faa500;
+        }
       }
     }
   }
 }
+// rocket
 
+@keyframes rocket {
+  0% {
+    transform: translateY(5px);
+    filter: brightness(.9);
+  }
+
+  100% {
+    transform: translateX(5px);
+    filter: brightness(1.1);
+
+  }
+}
+
+// spinner
 .loader,
 .loader:after {
   border-radius: 50%;

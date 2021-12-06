@@ -6,6 +6,8 @@ import React, {
   useState,
 } from "react";
 import { ImRocket } from "react-icons/im";
+import { GiRocketThruster } from "react-icons/gi";
+import { FaRocket } from "react-icons/fa";
 import styles from "./styles.module.scss";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
@@ -64,7 +66,7 @@ const Contact = () => {
   };
 
   return (
-    <div className={styles.container}>
+    <div className={`${styles.container} fadeInTop`}>
       <ToastContainer />
 
       <h1 title="Pagina de Contato">Contato</h1>
@@ -107,7 +109,11 @@ const Contact = () => {
           </button>
         ) : (
           <button type="submit" title="Enviar email">
-            <ImRocket />
+            Enviar email
+            <span>
+              <FaRocket className={styles.rocket} />
+              <GiRocketThruster className={styles.fire} />
+            </span>
           </button>
         )}
       </form>

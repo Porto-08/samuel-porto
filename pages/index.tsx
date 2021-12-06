@@ -7,7 +7,7 @@ import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 
 const Home: NextPage = () => {
   return (
-    <div className={`${styles.container}  animate__animated animate__fadeIn`}>
+    <div className={`${styles.container}  fadeInTop`}>
       <Image
         src={profile}
         height={350}
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
         <p>
           Sou um Desenvolvedor FullStack que ama resolver problemas e passar
-          meus conhecimentos para outras pessoas. 
+          meus conhecimentos para outras pessoas.
         </p>
 
         <div>

@@ -8,6 +8,7 @@
   --hover-text-color: rgba(248, 71, 248, 0.667);
   --shadow-text-color: rgba(0, 0, 0, 0.3);
   --shadow-img-color: rgba(0, 0, 0, 0.6);
+  --placeholder-color: #444444;
 }
 
 .darkMode {
@@ -20,6 +21,7 @@
   --hover-text-color: #1db9c3;
   --shadow-text-color: rgba(0, 0, 0, 0.6);
   --shadow-img-color: rgba(0, 0, 0, 0.9);
+  --placeholder-color: #fff;
 }
 
 
@@ -111,7 +113,22 @@ body {
   }
 }
 
-.fadeInleft {
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeInLeft {
   animation: fadeInLeft .9s ease both;
+}
+
+.fadeInTop {
+  animation: fadeInTop .6s ease;
 }
 

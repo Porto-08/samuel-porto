@@ -68,7 +68,7 @@ const Projects: NextPage = () => {
           <title>Samuel Porto - Projects</title>
       </Head>
       <div
-        className={`${styles.container}  animate__animated animate__fadeInLeft`}
+        className={`${styles.container} fadeInTop`}
         id="containerProjects"
       >
         <ul className={styles.filterList}>
@@ -86,7 +86,7 @@ const Projects: NextPage = () => {
           </li>
         </ul>
 
-        <section className={styles.projects}>
+        <section className={`${styles.projects}`}>
           {!projectsFilter
             ? projectsJson.map((project: ProjectsData) => {
                 return (
