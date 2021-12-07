@@ -64,7 +64,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 
       <DarkModeStorage>
         <div className="container">
-          <div className="animate__animated animate__fadeInLeft">
+          <div className="fadeInLeft">
             <Sidenav />
           </div>
 

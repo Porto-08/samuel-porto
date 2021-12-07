@@ -25,9 +25,15 @@
     color: var(--placeholder-color);
     font-size: clamp(1rem, 1.15vw, 1.25rem);
 
+    transition: 0.2s ease;
+
     &::placeholder {
       color: var(--placeholder-color);
       opacity: 0.6;
+    }
+
+    &:focus {
+      background: rgba($color: #000000, $alpha: 0.1)
     }
   }
 
@@ -50,11 +56,19 @@
 
       input {
         display: inline;
+
+        &:hover, &:focus {
+          border-bottom: 1px solid var(--hover-text-color);
+        }
       }
     }
 
     textarea {
       border: 1px solid var(--title-color);
+
+      &:hover, &:focus {
+        border: 1px solid var(--hover-text-color);
+      }
     }
 
     button {
@@ -117,13 +131,12 @@
 @keyframes rocket {
   0% {
     transform: translateY(5px);
-    filter: brightness(.9);
+    filter: brightness(0.9);
   }
 
   100% {
     transform: translateX(5px);
     filter: brightness(1.1);
-
   }
 }
 

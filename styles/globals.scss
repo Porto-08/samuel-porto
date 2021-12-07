@@ -24,7 +24,6 @@
   --placeholder-color: #fff;
 }
 
-
 h1,
 h2,
 h3,
@@ -94,6 +93,7 @@ body {
 
   @media (max-width: 1200px) {
     grid-template-columns: 1fr;
+    height: 100%;
   }
 }
 
@@ -125,10 +125,9 @@ body {
 }
 
 .fadeInLeft {
-  animation: fadeInLeft .9s ease both;
+  animation: fadeInLeft 0.9s ease both;
 }
 
 .fadeInTop {
-  animation: fadeInTop .6s ease;
+  animation: fadeInTop 0.6s ease;
 }
-

@@ -114,7 +114,7 @@ const About: NextPage = () => {
         </div>
 
         <div className={styles.experiences}>
-          <h3>Experiences</h3>
+          <h3>Roles</h3>
 
           <div className={styles.experienceBox}>
             <header>
