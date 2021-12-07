@@ -4,7 +4,7 @@
   width: 100%;
 
   @media (max-width: 1000px) {
-    padding: 0px 20px;
+    padding: 20px;
   }
 
   h1 {
@@ -70,9 +70,9 @@
       background: var(--title-color);
       color: #fff;
       cursor: pointer;
-      transition: all 0.2s ease;
+      transition: all 0.5s ease;
 
-      font-size: 1.5rem;
+      font-size: 1.25rem;
 
       span {
         display: flex;
@@ -95,7 +95,7 @@
 
       &:hover {
         background: var(--hover-text-color);
-        transform: scale(1.05);
+        transform: scale(1.02);
         color: #fff;
 
         .fire,
@@ -111,6 +111,7 @@
     }
   }
 }
+
 // rocket
 
 @keyframes rocket {

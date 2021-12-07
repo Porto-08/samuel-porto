@@ -109,7 +109,7 @@ const Contact = () => {
           </button>
         ) : (
           <button type="submit" title="Enviar email">
-            Enviar email
+            Bora!
             <span>
               <FaRocket className={styles.rocket} />
               <GiRocketThruster className={styles.fire} />
