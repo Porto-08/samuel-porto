@@ -1,5 +1,5 @@
 import styles from "./styles.module.scss";
-import Image from "next/image"
+import Image from "next/image";
 
 interface cardProjectInterface {
   key: number;
@@ -18,16 +18,14 @@ const CardProject = ({
   description,
 }: cardProjectInterface) => {
   return (
-    <div
-      className={`${styles.container} fadeInTop`}
-    >
+    <div className={`${styles.container} fadeInTop`}>
       <div>
         <a href={link} target="_blank" rel="noreferrer">
           <img src={imgPath} loading="lazy" alt="Project Card" title={name} />
         </a>
       </div>
 
-      <div className={styles.informations} >
+      <div className={styles.informations}>
         <h3>{name}</h3>
         <p>{description}</p>
         <div className={styles.tecnologies}>
@@ -35,9 +33,11 @@ const CardProject = ({
             return <span key={index}>{tecnologie}</span>;
           })}
         </div>
-        <a href={link} target="_blank" rel="noreferrer">
-          See Project
-        </a>
+        {link === "#" ? null : (
+          <a href={link} target="_blank" rel="noreferrer">
+            See Project
+          </a>
+        )}
       </div>
     </div>
   );

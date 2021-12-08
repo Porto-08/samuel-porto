@@ -8,6 +8,33 @@
     "link": "https://games-free-to-play.vercel.app/",
     "tecnologies": ["React", "Typescript", "Sass", "NextJs"]
   },
+  {
+    "id": 14,
+    "name": "Moderação - Bizsys",
+    "description": "Um dos meus primeiros projetos profissionais. Construimos ele para trocar o webapp antigo feito em Blade que estava defasado. Aplicação com proposito de aprovar ou não videos, imagens e textos enviados de projetos OOH (out of home).",
+    "pathPhoto": "/moderação.png",
+    "type": "front",
+    "link": "https://moderacao.bizsys.com.br/",
+    "tecnologies": ["React", "Sass"]
+  },
+  {
+    "id": 14,
+    "name": "Black Friday - Mercado Livre",
+    "description": "Experiência Ar para caça de ofertas de descontos no site e app do Mercado livre! Ao entrar na experiência Ar o usuário é surpreendido com um 3D com um link para as ofertas.",
+    "pathPhoto": "/mercadolivrear.jpg",
+    "type": "front",
+    "link": "#",
+    "tecnologies": ["React", "Sass"]
+  },
+  {
+    "id": 15,
+    "name": "Behind The Flare",
+    "description": "Projeto criado para um evento online nos Estados Unidos para que médicos se informassem sobre a GPP (Generalized Pustular Psoriasis). Use fones de ouvidos, fica melhora a experiência",
+    "pathPhoto": "/behindtheflare.png",
+    "type": "front",
+    "link": "https://www.behindtheflare.com/",
+    "tecnologies": ["React", "Sass"]
+  },
 
   {
     "id": 2,
