@@ -32,7 +32,7 @@ const About: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Samuel Porto - About</title>
+        <title>Samuel Porto - Sobre mim</title>
       </Head>
       <div
         className={`${styles.container}  fadeInTop`}
@@ -66,7 +66,7 @@ const About: NextPage = () => {
                   Idade: <span>20</span>
                 </li>
                 <li>
-                  To em: <span>São Paulo - Brazil</span>
+                  Localização: <span>São Paulo - Brazil</span>
                 </li>
                 <li>
                   Email: <span>samuelalcala2001@outlook.com</span>
@@ -114,7 +114,7 @@ const About: NextPage = () => {
         </div>
 
         <div className={styles.experiences}>
-          <h3>Roles</h3>
+          <h3>Experiências</h3>
 
           <div className={styles.experienceBox}>
             <header>
@@ -307,7 +307,7 @@ const About: NextPage = () => {
           </section>
 
           <section className={styles.skillsBox}>
-            <h3>Tools</h3>
+            <h3>Ferramentas</h3>
 
             <div className={styles.skillContent}>
               <a href="https://git-scm.com/" target="_blank" rel="noreferrer">

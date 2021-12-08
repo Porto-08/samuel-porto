@@ -65,7 +65,7 @@ const Projects: NextPage = () => {
   return (
     <>
       <Head>
-          <title>Samuel Porto - Projects</title>
+          <title>Samuel Porto - Meus Projetos</title>
       </Head>
       <div
         className={`${styles.container} fadeInTop`}

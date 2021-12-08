@@ -5,7 +5,7 @@ import React, {
   useRef,
   useState,
 } from "react";
-import { ImRocket } from "react-icons/im";
+import Head from "next/head"
 import { GiRocketThruster } from "react-icons/gi";
 import { FaRocket } from "react-icons/fa";
 import styles from "./styles.module.scss";
@@ -67,6 +67,9 @@ const Contact = () => {
 
   return (
     <div className={`${styles.container} fadeInTop`}>
+      <Head>
+        <title>Samuel Porto - Contato</title>
+      </Head>
       <ToastContainer />
 
       <h1 title="Pagina de Contato">Contato</h1>
