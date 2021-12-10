@@ -54,6 +54,7 @@ const Projects: NextPage = () => {
       front?.classList.remove("active");
       back?.classList.remove("active");
       all?.classList.add("active");
+      
       setProjectsFilter(undefined);
     }
   }
