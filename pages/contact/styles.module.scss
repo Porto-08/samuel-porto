@@ -65,6 +65,8 @@
 
     textarea {
       border: 1px solid var(--title-color);
+      resize: vertical;
+      min-height: 225px;
 
       &:hover, &:focus {
         border: 1px solid var(--hover-text-color);

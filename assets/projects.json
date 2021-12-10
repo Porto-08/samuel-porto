@@ -142,7 +142,7 @@
   {
     "id": 12,
     "name": "MoveIt",
-    "description": "Projeto realizado junto a NLW. O Projeto consiste em uma aplicação que a partir do início de um ciclo você precisa se focar e não se distrair no que irá trabalhar. Após o fim do ciclo é passado um desafio para exercitar o corpo ou os olhos (É aleatório).",
+    "description": "Projeto realizado junto a NLW. O Projeto consiste em uma aplicação que a partir do início de um ciclo você precisa se focar e não se distrair no que irá trabalhar.",
     "pathPhoto": "/moveit.png",
     "type": "front",
     "link": "https://moveit-delta-eight.vercel.app/",
