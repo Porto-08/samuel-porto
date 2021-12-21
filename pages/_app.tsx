@@ -1,14 +1,16 @@
 import "../styles/globals.scss";
 import "../styles/reset.scss";
 // import "animate.css";
-import 'react-toastify/dist/ReactToastify.css';
+import "react-toastify/dist/ReactToastify.css";
 import type { AppProps } from "next/app";
 import { DarkModeStorage } from "../context/DarkModeContext";
 import Sidenav from "../components/Sidenav";
 import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
-import{ init } from 'emailjs-com';
+import { init } from "emailjs-com";
+import { useEffect, useState } from "react";
+import { HashLoader } from "react-spinners";
 init("user_22xaQbtww7rTCYUpasb5c");
 
 Router.events.on("routeChangeStart", () => NProgress.start());
@@ -16,6 +18,12 @@ Router.events.on("routeChangeComplete", () => NProgress.done());
 Router.events.on("routeChangeError", () => NProgress.done());
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const [loading, setLoading] = useState<boolean>(true);
+
+  setTimeout(() => {
+    setLoading(false);
+  }, 2500);
+
   return (
     <>
       <Head>
@@ -63,15 +71,21 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <DarkModeStorage>
-        <div className="container">
-          <div className="fadeInLeft">
-            <Sidenav />
+        {loading ? (
+          <div className="loading">
+            <HashLoader color="#ed8d8d"  speedMultiplier={2} size={100} />
           </div>
+        ) : (
+          <div className="container">
+            <div className="fadeInLeft">
+              <Sidenav />
+            </div>
 
-          <div className="content">
-            <Component {...pageProps} />
+            <div className="content">
+              <Component {...pageProps} />
+            </div>
           </div>
-        </div>
+        )}
       </DarkModeStorage>
     </>
   );

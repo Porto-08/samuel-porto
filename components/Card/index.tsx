@@ -21,7 +21,7 @@ const CardProject = ({
     <div className={`${styles.container} fadeInTop`}>
       <div>
         <a href={link} target="_blank" rel="noreferrer">
-          <img src={imgPath} loading="lazy" alt="Project Card" title={name} />
+          <img src={imgPath} alt="Project Card" title={name} />
         </a>
       </div>
 
