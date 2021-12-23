@@ -25,6 +25,7 @@ import { useDarkMode } from "../../context/DarkModeContext";
 import { NextPage } from "next";
 import Image from "next/image";
 import Head from "next/head";
+import DownloadCv from "../../components/DownloadCv";
 
 const About: NextPage = () => {
   const { dark } = useDarkMode();
@@ -110,6 +111,7 @@ const About: NextPage = () => {
                 <FaLinkedin />
               </a>
             </div>
+
           </div>
         </div>
 

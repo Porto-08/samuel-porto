@@ -38,12 +38,11 @@
     }
   }
 
-
-
   .description {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: flex-start;
+    gap: 20px;
 
     h2 {
       margin: 0;
@@ -65,14 +64,14 @@
       color: var(--text-color);
     }
 
-    >div {
+    > div {
       display: flex;
       gap: 30px;
 
       a {
         color: var(--text-color);
         font-size: clamp(1.25rem, 1.5vw, 1.5rem);
-        transition: .3s ease;
+        transition: 0.3s ease;
 
         &:hover {
           transform: scale(1.2);

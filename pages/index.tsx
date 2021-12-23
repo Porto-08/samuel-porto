@@ -4,6 +4,7 @@ import Image from "next/image";
 import profile from "../assets/img/eu.jpeg";
 import styles from "./styles.module.scss";
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import DownloadCv from "../components/DownloadCv";
 
 const Home: NextPage = () => {
   return (
@@ -59,6 +60,8 @@ const Home: NextPage = () => {
             <FaWhatsapp />
           </a>
         </div>
+
+        <DownloadCv />
       </div>
     </div>
   );
