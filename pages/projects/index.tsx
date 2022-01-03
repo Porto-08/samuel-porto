@@ -16,12 +16,10 @@ interface ProjectsData {
 }
 
 const Projects: NextPage = () => {
-  const [projects, setProjects] = useState<Array<ProjectsData>>();
   const [projectsFilter, setProjectsFilter] = useState<Array<ProjectsData>>();
   const [filter, setFilter] = useState<string>("");
-  const [loading, setLoading] = useState<Boolean>(false);
 
-  function getProjectsFilter() {
+  const getProjectsFilter = () => {
     const front = document.querySelector("#front");
     const back = document.querySelector("#back");
     const all = document.querySelector("#all");

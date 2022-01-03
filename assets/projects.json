@@ -1,5 +1,14 @@
 [
   {
+    "id": 17,
+    "name": "Viacep - Redux",
+    "description": "Aplicação para consulta de CEPs do Brasil inteiro! Realizada com Redux para fins de prática e estudos.",
+    "pathPhoto": "/viacep-home.png",
+    "type": "front",
+    "link": "https://porto-08.github.io/viacep-redux/",
+    "tecnologies": ["React", "Redux", "Sass"]
+  },
+  {
     "id": 13,
     "name": "Games Free",
     "description": "Senti que precisava produzir algo útil e também estudar NextJs, assim surgiu o 'Games Free'! O site consiste em encontrar novas aventuras em jogos gratuitos e poder se divertir sem precisar gastar dinheiro.",
