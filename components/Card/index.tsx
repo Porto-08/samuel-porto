@@ -35,7 +35,7 @@ const CardProject = ({
         </div>
         {link === "#" ? null : (
           <a href={link} target="_blank" rel="noreferrer">
-            See Project
+            Ver Projeto
           </a>
         )}
       </div>
