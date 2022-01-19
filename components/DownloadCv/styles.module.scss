@@ -9,12 +9,12 @@
   border-radius: 10px;
   background: var(--title-color);
   filter: brightness(1.1);
-  box-shadow: 0px 0px 10px 0.5px var(--title-color);
-
+  box-shadow: 0px 0px 5px 0.5px var(--title-color);
+  
   transition: 0.3s ease;
-
+  
   &:hover {
-    box-shadow: 0px 0px 20px 0.5px var(--title-color);
+    box-shadow: 0px 0px 7px 0.5px var(--title-color);
     transform: scale(1.1);
   }
 }

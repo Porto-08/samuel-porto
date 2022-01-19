@@ -14,12 +14,20 @@ const Sidenav = () => {
         onClick={setDarkState}
       >
         {dark === true ? (
-          <i>
-            <FaMoon />
+          <i role="button">
+            <FaSun
+              role="button"
+              aria-label="Turn on Dark Mode"
+              title="Turn on Dark Mode"
+            />
           </i>
         ) : (
-          <i>
-            <FaSun />
+          <i role="button">
+            <FaMoon
+              role="button"
+              aria-label="Turn on Light Mode"
+              title="Turn on Light Mode"
+            />
           </i>
         )}
       </button>

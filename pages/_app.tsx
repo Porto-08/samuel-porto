@@ -77,13 +77,13 @@ function MyApp({ Component, pageProps }: AppProps) {
           </div>
         ) : (
           <div className="container">
-            <div className="fadeInLeft">
+            <aside className="fadeInLeft">
               <Sidenav />
-            </div>
+            </aside>
 
-            <div className="content">
+            <main className="content">
               <Component {...pageProps} />
-            </div>
+            </main>
           </div>
         )}
       </DarkModeStorage>

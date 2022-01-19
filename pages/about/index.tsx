@@ -91,6 +91,7 @@ const About: NextPage = () => {
                 href="https://api.whatsapp.com/send?phone=5511980540272"
                 target="_blank"
                 rel="noreferrer"
+                title="Conhecer Tecnologia"
               >
                 <FaWhatsapp />
               </a>
@@ -99,6 +100,7 @@ const About: NextPage = () => {
                 href="https://github.com/Porto-08"
                 target="_blank"
                 rel="noreferrer"
+                title="Conhecer Tecnologia"
               >
                 <FaGithub />
               </a>
@@ -107,6 +109,7 @@ const About: NextPage = () => {
                 href="https://linkedin.com/in/samuelporto"
                 target="_blank"
                 rel="noreferrer"
+                title="Conhecer Tecnologia"
               >
                 <FaLinkedin />
               </a>
@@ -136,6 +139,7 @@ const About: NextPage = () => {
                   href="https://www.bizsys.com.br/"
                   target="_blank"
                   rel="noreferrer"
+                  title="Visitar Website"
                 >
                   Website
                 </a>
@@ -144,7 +148,8 @@ const About: NextPage = () => {
               <span>|</span>
 
               <li>
-                <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                <a href="https://reactjs.org/" target="_blank" rel="noreferrer"
+                title="Conhecer Tecnologia" >
                   ReactJs
                 </a>
               </li>
@@ -153,12 +158,14 @@ const About: NextPage = () => {
                   href="https://nodejs.org/en/"
                   target="_blank"
                   rel="noreferrer"
+                  title="Conhecer Tecnologia"
                 >
                   NodeJs
                 </a>
               </li>
               <li>
-                <a href="https://www.php.net/" target="_blank" rel="noreferrer">
+                <a href="https://www.php.net/" target="_blank" rel="noreferrer"
+                title="Conhecer Tecnologia" >
                   Php
                 </a>
               </li>
@@ -167,6 +174,7 @@ const About: NextPage = () => {
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                   target="_blank"
                   rel="noreferrer"
+                  title="Conhecer Tecnologia"
                 >
                   Javascript
                 </a>
@@ -176,6 +184,7 @@ const About: NextPage = () => {
                   href="https://sass-lang.com/"
                   target="_blank"
                   rel="noreferrer"
+                  title="Conhecer Tecnologia"
                 >
                   Sass
                 </a>
@@ -202,6 +211,7 @@ const About: NextPage = () => {
                   href="https://www.recodepro.org.br/"
                   target="_blank"
                   rel="noreferrer"
+                  title="Visitar Website"
                 >
                   Website
                 </a>
@@ -210,7 +220,8 @@ const About: NextPage = () => {
               <span>|</span>
 
               <li>
-                <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+                <a href="https://reactjs.org/" target="_blank" rel="noreferrer"
+                title="Conhecer Tecnologia">
                   ReactJs
                 </a>
               </li>
@@ -219,12 +230,14 @@ const About: NextPage = () => {
                   href="https://nodejs.org/en/"
                   target="_blank"
                   rel="noreferrer"
+                  title="Conhecer Tecnologia"
                 >
                   React Native
                 </a>
               </li>
               <li>
-                <a href="https://www.php.net/" target="_blank" rel="noreferrer">
+                <a href="https://www.php.net/" target="_blank" rel="noreferrer"
+                title="Conhecer Tecnologia">
                   NodeJs
                 </a>
               </li>
@@ -233,6 +246,7 @@ const About: NextPage = () => {
                   href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                   target="_blank"
                   rel="noreferrer"
+                  title="Conhecer Tecnologia"
                 >
                   Javascript
                 </a>
@@ -246,18 +260,21 @@ const About: NextPage = () => {
             <h3>Front-end</h3>
 
             <div className={styles.skillContent}>
-              <a href="https://nextjs.org/" target="_blank" rel="noreferrer">
+              <a href="https://nextjs.org/" target="_blank" rel="noreferrer"
+              title="Conhecer Tecnologia">
                 <SiNextdotjs />
 
                 <span>NextJs</span>
               </a>
-              <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+              <a href="https://reactjs.org/" target="_blank" rel="noreferrer"
+              title="Conhecer Tecnologia">
                 <FaReact />
 
                 <span>React</span>
               </a>
 
-              <a href="https://sass-lang.com/" target="_blank" rel="noreferrer">
+              <a href="https://sass-lang.com/" target="_blank" rel="noreferrer"
+              title="Conhecer Tecnologia">
                 <FaSass />
                 <span>Sass</span>
               </a>
@@ -266,6 +283,7 @@ const About: NextPage = () => {
                 href="https://getbootstrap.com/"
                 target="_blank"
                 rel="noreferrer"
+                title="Conhecer Tecnologia"
               >
                 <FaBootstrap />
                 <span>Bootstrap</span>
@@ -275,6 +293,7 @@ const About: NextPage = () => {
                 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                 target="_blank"
                 rel="noreferrer"
+                title="Conhecer Tecnologia"
               >
                 <SiJavascript />
                 <span>JavaScript</span>
@@ -284,6 +303,7 @@ const About: NextPage = () => {
                 href="https://www.typescriptlang.org/"
                 target="_blank"
                 rel="noreferrer"
+                title="Conhecer Tecnologia"
               >
                 <SiTypescript />
                 <span>Typescript</span>
@@ -295,13 +315,15 @@ const About: NextPage = () => {
             <h3>Back-end</h3>
 
             <div className={styles.skillContent}>
-              <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer">
+              <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"
+              title="Conhecer Tecnologia">
                 <FaNode />
 
                 <span>NodeJs</span>
               </a>
 
-              <a href="https://www.php.net/" target="_blank" rel="noreferrer">
+              <a href="https://www.php.net/" target="_blank" rel="noreferrer"
+              title="Conhecer Tecnologia">
                 <FaPhp />
                 <span>Php</span>
               </a>
@@ -312,12 +334,14 @@ const About: NextPage = () => {
             <h3>Ferramentas</h3>
 
             <div className={styles.skillContent}>
-              <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
+              <a href="https://git-scm.com/" target="_blank" rel="noreferrer"
+              title="Conhecer Tecnologia">
                 <FaGit />
                 <span>Git</span>
               </a>
 
-              <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+              <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"
+              title="Conhecer Tecnologia">
                 <SiMysql />
                 <span>MySql</span>
               </a>
@@ -326,12 +350,14 @@ const About: NextPage = () => {
                 href="https://www.mongodb.com/"
                 target="_blank"
                 rel="noreferrer"
+                title="Conhecer Tecnologia"
               >
                 <SiMongodb />
                 <span>MongoDB</span>
               </a>
 
-              <a href="https://insomnia.rest/" target="_blank" rel="noreferrer">
+              <a href="https://insomnia.rest/" target="_blank" rel="noreferrer"
+              title="Conhecer Tecnologia">
                 <SiInsomnia />
                 <span>Insomnia</span>
               </a>
@@ -340,6 +366,7 @@ const About: NextPage = () => {
                 href="https://code.visualstudio.com/"
                 target="_blank"
                 rel="noreferrer"
+                title="Conhecer Tecnologia"
               >
                 <SiVisualstudiocode />
                 <span>VS Code</span>
