@@ -1,0 +1,12 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-content: center;
+  gap: 50px;
+
+  a {
+    color: var(--hover-text-color);
+    text-decoration: underline;
+  }
+}

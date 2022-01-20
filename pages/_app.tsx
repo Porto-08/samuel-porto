@@ -1,6 +1,7 @@
 import "../styles/globals.scss";
 import "../styles/reset.scss";
-// import "animate.css";
+import "../styles/animations.scss";
+
 import "react-toastify/dist/ReactToastify.css";
 import type { AppProps } from "next/app";
 import { DarkModeStorage } from "../context/DarkModeContext";
@@ -9,9 +10,8 @@ import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
 import { init } from "emailjs-com";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { HashLoader } from "react-spinners";
-init("user_22xaQbtww7rTCYUpasb5c");
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
