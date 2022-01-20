@@ -36,22 +36,22 @@ const Sidenav = () => {
         <h2>Dev.</h2>
 
         <ul>
-          <li>
+          <li title="Home">
             <Link href="/" aria-label="Home">
               Home
             </Link>
           </li>
-          <li>
+          <li title="Sobre">
             <Link href="about" aria-label="About Me">
               Sobre
             </Link>
           </li>
-          <li>
+          <li title="Projetos">
             <Link href="projects" aria-label="My Projects">
               Projetos
             </Link>
           </li>
-          <li>
+          <li title="Contato">
             <Link href="contact" aria-label="Contact Me">
               Contato
             </Link>

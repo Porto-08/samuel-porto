@@ -15,6 +15,7 @@ const Home: NextPage = () => {
         width={325}
         alt="profile picture"
         title="Profile picture"
+        objectFit="cover"
         priority
       />
 
