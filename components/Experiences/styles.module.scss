@@ -1,0 +1,81 @@
+.experienceBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 0 35px;
+
+    @media (max-width: 800px) {
+      padding: 0;
+    }
+
+    header {
+      h4,
+      a {
+        display: block;
+        font-size: clamp(0.9rem, 1vw, 1.25rem);
+        letter-spacing: 1px;
+        font-style: italic;
+      }
+
+      h4 {
+        font-size: clamp(1.05rem, 1.1vw, 1.5rem);
+      }
+
+      a {
+        font-style: normal;
+        font-weight: 500;
+        color: var(--text-color);
+        text-decoration: underline;
+
+        &:hover {
+          color: var(--hover-text-color);
+        }
+      }
+    }
+
+    p {
+      font-size: clamp(1rem, 1.15vw, 1.25rem);
+      letter-spacing: normal;
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+
+      @media (max-width: 768px) {
+        gap: 10px;
+      }
+
+      a,
+      span {
+        color: var(--hover-text-color);
+        font-size: clamp(0.9rem, 1vw, 1.5rem);
+        cursor: pointer;
+        letter-spacing: 1px;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      span {
+        color: var(--text-color);
+        cursor: default;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+
+      li {
+        transition: 0.3s ease;
+        
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }

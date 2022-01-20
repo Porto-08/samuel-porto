@@ -5,8 +5,13 @@
   place-content: center;
   gap: 50px;
 
+
   a {
     color: var(--hover-text-color);
     text-decoration: underline;
+  }
+
+  @media (max-width: 1200px) {
+    padding: 20px;
   }
 }

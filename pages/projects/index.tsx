@@ -11,6 +11,7 @@ interface ProjectsData {
   pathPhoto: string;
   type: string;
   link: string;
+  linkGit: string;
   tecnologies: string[];
   description: string;
 }
@@ -95,6 +96,7 @@ const Projects: NextPage = () => {
                     name={project.name}
                     imgPath={project.pathPhoto}
                     link={project.link}
+                    linkGit={project.linkGit}
                     tecnologies={project.tecnologies}
                     description={project.description}
                   />
@@ -107,6 +109,7 @@ const Projects: NextPage = () => {
                     name={project.name}
                     imgPath={project.pathPhoto}
                     link={project.link}
+                    linkGit={project.linkGit}
                     tecnologies={project.tecnologies}
                     description={project.description}
                   />

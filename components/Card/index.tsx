@@ -1,6 +1,7 @@
 import styles from "./styles.module.scss";
 import Image from "next/image";
-
+import {FiGithub} from "react-icons/fi";
+import {IoIosRocket} from "react-icons/io"; 
 interface cardProjectInterface {
   key: number;
   link: string;
@@ -8,6 +9,7 @@ interface cardProjectInterface {
   name: string;
   tecnologies: string[];
   description: string;
+  linkGit: string;
 }
 
 const CardProject = ({
@@ -16,6 +18,7 @@ const CardProject = ({
   name,
   tecnologies,
   description,
+  linkGit,
 }: cardProjectInterface) => {
   return (
     <div className={`${styles.container} fadeInTop`}>
@@ -33,11 +36,20 @@ const CardProject = ({
             return <span key={index}>{tecnologie}</span>;
           })}
         </div>
-        {link === "#" ? null : (
-          <a href={link} target="_blank" rel="noreferrer">
-            Ver Projeto
-          </a>
-        )}
+
+        <div className={styles.links}>
+          {link === "#" ? null : (
+            <a href={link} target="_blank" rel="noreferrer">
+              <IoIosRocket /> Website
+            </a>
+          )}
+
+          {linkGit === "#" ? null : (
+            <a href={linkGit} target="_blank" rel="noreferrer">
+              <FiGithub /> Github
+            </a>
+          )}
+        </div>
       </div>
     </div>
   );

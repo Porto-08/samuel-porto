@@ -6,6 +6,7 @@
     "pathPhoto": "/viacep-home.png",
     "type": "front",
     "link": "https://porto-08.github.io/viacep-redux/",
+    "linkGit": "https://github.com/Porto-08/viacep-redux",
     "tecnologies": ["React", "Redux", "Sass"]
   },
   {
@@ -15,6 +16,7 @@
     "pathPhoto": "/games_free.png",
     "type": "front",
     "link": "https://games-free-to-play.vercel.app/",
+    "linkGit": "https://github.com/Porto-08/games-free",
     "tecnologies": ["React", "Typescript", "Sass", "NextJs"]
   },
   {
@@ -23,7 +25,8 @@
     "description": "Projeto realizado junto a NLW para estudos de Typescript e NodeJs. Consiste em usuários enviarem elogios uns para os outros.",
     "pathPhoto": "/nodejs.jpg",
     "type": "back",
-    "link": "https://github.com/Porto-08/API-COMPLIMENTS",
+    "link": "#",
+    "linkGit": "https://github.com/Porto-08/API-COMPLIMENTS",
     "tecnologies": ["Node"]
   },
   {
@@ -32,7 +35,8 @@
     "description": "API Rest CRUD para prática e estudos de NodeJs.",
     "pathPhoto": "/nodejs.jpg",
     "type": "back",
-    "link": "https://github.com/Porto-08/API-REST-CRUD",
+    "link": "#",
+    "linkGit": "https://github.com/Porto-08/API-REST-CRUD",
     "tecnologies": ["Node"]
   },
 
@@ -43,6 +47,7 @@
     "pathPhoto": "/moderação.png",
     "type": "front",
     "link": "https://moderacao.bizsys.com.br/",
+    "linkGit": "#",
     "tecnologies": ["React", "Sass"]
   },
 
@@ -53,6 +58,7 @@
     "pathPhoto": "/mercadolivrear.jpg",
     "type": "front",
     "link": "#",
+    "linkGit": "#",
     "tecnologies": ["React", "Sass"]
   },
   {
@@ -62,6 +68,7 @@
     "pathPhoto": "/behindtheflare.png",
     "type": "front",
     "link": "https://www.behindtheflare.com/",
+    "linkGit": "#",
     "tecnologies": ["React", "Sass"]
   },
 
@@ -72,6 +79,7 @@
     "pathPhoto": "/dogs.png",
     "type": "front",
     "link": "https://github.com/Porto-08/Dogs",
+    "linkGit": "https://github.com/Porto-08/Dogs",
     "tecnologies": ["React"]
   },
 
@@ -82,6 +90,7 @@
     "pathPhoto": "/wildbeast.png",
     "type": "front",
     "link": "https://porto-08.github.io/Wildbeast/",
+    "linkGit": "https://github.com/Porto-08/Wildbeast",
     "tecnologies": ["Html", "Css"]
   },
 
@@ -92,6 +101,7 @@
     "pathPhoto": "/podcats.png",
     "type": "front",
     "link": "https://github.com/Porto-08/PodCastr",
+    "linkGit": "https://github.com/Porto-08/PodCastr",
     "tecnologies": ["React", "Typescript", "Sass"]
   },
   {
@@ -101,6 +111,7 @@
     "pathPhoto": "/login.png",
     "type": "front",
     "link": "https://login-ui-porto.herokuapp.com/",
+    "linkGit": "https://github.com/Porto-08/login-ui",
     "tecnologies": ["React", "Sass"]
   },
   {
@@ -109,7 +120,8 @@
     "description": "Projeto para estudos do framework mais usado do mundo! Criei. API produzida com base em conceitos REST. Login realizado com Json Web Token (JWT).",
     "pathPhoto": "/laravel.png",
     "type": "back",
-    "link": "https://github.com/Porto-08/rest-api-laravel",
+    "link": "#",
+    "linkGit": "https://github.com/Porto-08/rest-api-laravel",
     "tecnologies": ["Laravel", "PHP"]
   },
   {
@@ -119,6 +131,7 @@
     "pathPhoto": "/flexblog.png",
     "type": "front",
     "link": "https://porto-08.github.io/flexblog/",
+    "linkGit": "https://github.com/Porto-08/flexblog",
     "tecnologies": ["Html", "Css"]
   },
   {
@@ -127,7 +140,8 @@
     "description": "A api foi desenvolvida para fins de estudo, ela consiste em uma aplicação de alugueis de imóveis.",
     "pathPhoto": "/nodejs.jpg",
     "type": "back",
-    "link": "https://github.com/Porto-08/api-devhouse",
+    "link": "#",
+    "linkGit": "https://github.com/Porto-08/api-devhouse",
     "tecnologies": ["Node"]
   },
   {
@@ -137,6 +151,7 @@
     "pathPhoto": "/bikecraft.png",
     "type": "front",
     "link": "https://github.com/Porto-08/Bikecraft",
+    "linkGit": "https://github.com/Porto-08/Bikecraft",
     "tecnologies": ["Html", "Css"]
   },
   {
@@ -146,6 +161,7 @@
     "pathPhoto": "/letmeask.png",
     "type": "front",
     "link": "https://github.com/Porto-08/letmeask",
+    "linkGit": "https://github.com/Porto-08/letmeask",
     "tecnologies": ["React", "Typescript", "Sass"]
   },
   {
@@ -155,6 +171,7 @@
     "pathPhoto": "/moveit.png",
     "type": "front",
     "link": "https://moveit-delta-eight.vercel.app/",
+    "linkGit": "https://github.com/Porto-08/MoveIt",
     "tecnologies": ["React", "Typescript", "Sass"]
   }
 ]
