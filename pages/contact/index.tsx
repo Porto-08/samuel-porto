@@ -5,7 +5,7 @@ import React, {
   useRef,
   useState,
 } from "react";
-import Head from "next/head"
+import Head from "next/head";
 import { GiRocketThruster } from "react-icons/gi";
 import { FaRocket } from "react-icons/fa";
 import styles from "./styles.module.scss";
@@ -72,15 +72,15 @@ const Contact = () => {
       </Head>
       <ToastContainer />
 
-      <h1 title="Pagina de Contato">Contato</h1>
-      <span>Entre em contato para que possamos conversar!</span>
+      <h1 title="Contato">Contato</h1>
+      <span>Bora falar de projetos?</span>
 
       <form ref={form} onSubmit={sendEmail}>
         <section>
           <input
             type="text"
             name="user_name"
-            placeholder="Seu belo nome.."
+            placeholder="Seu nome.."
             autoFocus
             ref={name}
             required
@@ -89,7 +89,7 @@ const Contact = () => {
           <input
             type="email"
             name="user_email"
-            placeholder="Seu Email: email@email.com"
+            placeholder="email@email.com"
             ref={email}
             required
             inputMode="email"

@@ -18,15 +18,15 @@ const Sidenav = () => {
             <FaSun
               role="button"
               aria-label="Turn on Dark Mode"
-              title="Turn on Dark Mode"
-            />
+              title="Trocar para Light Mode"
+              />
           </i>
         ) : (
           <i role="button">
             <FaMoon
               role="button"
               aria-label="Turn on Light Mode"
-              title="Turn on Light Mode"
+              title="Trocar para Dark Mode"
             />
           </i>
         )}

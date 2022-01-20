@@ -12,6 +12,11 @@
     font-style: italic;
   }
 
+  span {
+    font-size: clamp(1.25rem, 1.1vw, 1.5rem);
+    font-style: italic;
+  }
+
   input,
   textarea {
     display: block;

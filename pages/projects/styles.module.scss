@@ -8,7 +8,7 @@
   ul {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: baseline;
     gap: 30px;
 
     margin-bottom: 40px;
@@ -18,10 +18,15 @@
       cursor: default;
     }
 
+    span {
+      font-size: clamp(1.25rem, 1.1vw, 1.5rem);
+      cursor: default;
+    }
+
     li {
       cursor: pointer;
       color: var(--text-color);
-      font-size: clamp(1.25rem, 1.5vw, 1.75rem);
+      font-size: clamp(1.5rem, 1.5vw, 1.75rem);
       font-style: italic;
       letter-spacing: 0.5px;
 
@@ -40,6 +45,10 @@
       h1 {
         display: none;
       }
+
+      span {
+        display: none;
+      }
     }
   }
 
@@ -56,4 +65,3 @@
     }
   }
 }
-

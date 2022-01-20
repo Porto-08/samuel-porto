@@ -52,10 +52,10 @@ const Projects: NextPage = () => {
       front?.classList.remove("active");
       back?.classList.remove("active");
       all?.classList.add("active");
-      
+
       setProjectsFilter(undefined);
     }
-  }
+  };
 
   useEffect(() => {
     getProjectsFilter();
@@ -64,17 +64,16 @@ const Projects: NextPage = () => {
   return (
     <>
       <Head>
-          <title>Samuel Porto - Meus Projetos</title>
+        <title>Samuel Porto - Meus Projetos</title>
       </Head>
-      
-      <div
-        className={`${styles.container} fadeInTop`}
-        id="containerProjects"
-      >
+
+      <div className={`${styles.container} fadeInTop`} id="containerProjects">
         <ul className={styles.filterList}>
           <li>
-            <h1>Meus Projetos</h1>
-            
+            <div>
+              <h1>Meus Projetos</h1>
+              <span>Conheça meu trabalho e projetos!</span>
+            </div>
           </li>
           <li onClick={() => setFilter("")} id="all">
             All
