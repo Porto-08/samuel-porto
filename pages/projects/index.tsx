@@ -83,7 +83,7 @@ const Projects: NextPage = () => {
             Front-End
           </li>
           <li onClick={() => setFilter("back")} id="back">
-            Back-end
+            Back-End
           </li>
         </ul>
 

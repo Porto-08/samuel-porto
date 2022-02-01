@@ -11,6 +11,7 @@ import { FaRocket } from "react-icons/fa";
 import styles from "./styles.module.scss";
 import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
+import axios from "axios";
 
 const Contact = () => {
   const [loading, setLoading] = useState<boolean>(false);
@@ -37,10 +38,13 @@ const Contact = () => {
     }
 
     try {
-      const sendEmail = await emailjs.sendForm(
-        "service_ttioyn9",
-        "template_tzs1q99",
-        form.current
+      const sendEmail = await axios.post(
+        "https://api.emailjs.com/api/v1.0/email/send",
+        {
+          service_id: "service_ttioyn9",
+          template_id: "template_tzs1q99",
+          user_id: "user_22xaQbtww7rTCYUpasb5c",
+        }
       );
 
       if (sendEmail.status === 200) {
