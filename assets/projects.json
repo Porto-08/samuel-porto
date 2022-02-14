@@ -1,15 +1,5 @@
 [
   {
-    "id": 17,
-    "name": "Viacep - Redux",
-    "description": "Aplicação para consulta de CEPs do Brasil inteiro! Realizada com Redux para fins de prática e estudos.",
-    "pathPhoto": "/viacep-home.png",
-    "type": "front",
-    "link": "https://porto-08.github.io/viacep-redux/",
-    "linkGit": "https://github.com/Porto-08/viacep-redux",
-    "tecnologies": ["React", "Redux", "Sass"]
-  },
-  {
     "id": 13,
     "name": "Games Free",
     "description": "Senti que precisava produzir algo útil e também estudar NextJs, assim surgiu o 'Games Free'! O site consiste em encontrar novas aventuras em jogos gratuitos e poder se divertir sem precisar gastar dinheiro.",
@@ -18,6 +8,36 @@
     "link": "https://games-free-to-play.vercel.app/",
     "linkGit": "https://github.com/Porto-08/games-free",
     "tecnologies": ["React", "Typescript", "Sass", "NextJs"]
+  },
+  {
+    "id": 2,
+    "name": "api-vendas",
+    "description": "API para cadastro e venda de produtos. Utilizado o banco de dados PostgreSQL, com as melhores práticas de desenvolvimento. (Em Desenvolvimento)",
+    "pathPhoto": "/nodejs.jpg",
+    "type": "back",
+    "link": "#",
+    "linkGit": "https://github.com/Porto-08/api-vendas",
+    "tecnologies": ["Node"]
+  },
+  {
+    "id": 2,
+    "name": "api-tasklist",
+    "description": "Api para criação e conclusão de tarefas. Utilizado o banco de dados PostgreSQL.",
+    "pathPhoto": "/nodejs.jpg",
+    "type": "back",
+    "link": "#",
+    "linkGit": "https://github.com/Porto-08/api-tasklist",
+    "tecnologies": ["Node"]
+  },
+  {
+    "id": 4,
+    "name": "Wildbeast",
+    "description": "Project carried out to learn Grid layout. It consists of a blog where you can see information about certain animals (only Lobo available). Grid really makes responsiveness very smooth to do.",
+    "pathPhoto": "/wildbeast.png",
+    "type": "front",
+    "link": "https://porto-08.github.io/Wildbeast/",
+    "linkGit": "https://github.com/Porto-08/Wildbeast",
+    "tecnologies": ["Html", "Css"]
   },
   {
     "id": 2,
@@ -30,6 +50,16 @@
     "tecnologies": ["Node"]
   },
   {
+    "id": 17,
+    "name": "Viacep - Redux",
+    "description": "Aplicação para consulta de CEPs do Brasil inteiro! Realizada com Redux para fins de prática e estudos.",
+    "pathPhoto": "/viacep-home.png",
+    "type": "front",
+    "link": "https://porto-08.github.io/viacep-redux/",
+    "linkGit": "https://github.com/Porto-08/viacep-redux",
+    "tecnologies": ["React", "Redux", "Sass"]
+  },
+  {
     "id": 3,
     "name": "api-rest-crud-node",
     "description": "API Rest CRUD para prática e estudos de NodeJs.",
@@ -39,7 +69,7 @@
     "linkGit": "https://github.com/Porto-08/API-REST-CRUD",
     "tecnologies": ["Node"]
   },
-
+  
   {
     "id": 16,
     "name": "Moderação - Bizsys",
@@ -78,21 +108,12 @@
     "description": "Uma rede social de cachorros. É possivel se cadastrar e postar fotos, analisar dados de suas fotos e ver fotos de outras pessoas. Projeto para solidificar conhecimentos em Javascript e ReactJS e suas bibliotecas.",
     "pathPhoto": "/dogs.png",
     "type": "front",
-    "link": "https://github.com/Porto-08/Dogs",
+    "link": "#",
     "linkGit": "https://github.com/Porto-08/Dogs",
     "tecnologies": ["React"]
   },
 
-  {
-    "id": 4,
-    "name": "Wildbeast",
-    "description": "Project carried out to learn Grid layout. It consists of a blog where you can see information about certain animals (only Lobo available). Grid really makes responsiveness very smooth to do.",
-    "pathPhoto": "/wildbeast.png",
-    "type": "front",
-    "link": "https://porto-08.github.io/Wildbeast/",
-    "linkGit": "https://github.com/Porto-08/Wildbeast",
-    "tecnologies": ["Html", "Css"]
-  },
+  
 
   {
     "id": 5,
@@ -100,7 +121,7 @@
     "description": "Projeto realizado com a NLW para prática de Typescript com ReactJs. O usuário pode ouvir PodCast atráves de streaming com um Player customizado, não é necessário login.",
     "pathPhoto": "/podcats.png",
     "type": "front",
-    "link": "https://github.com/Porto-08/PodCastr",
+    "link": "#",
     "linkGit": "https://github.com/Porto-08/PodCastr",
     "tecnologies": ["React", "Typescript", "Sass"]
   },
@@ -150,7 +171,7 @@
     "description": "O começo. Um dos projetos que mais aprendi sobre HTML, Css, e Javascript. Bikcraft é um site institucional para divulgação de uma loja de bicicletas.",
     "pathPhoto": "/bikecraft.png",
     "type": "front",
-    "link": "https://github.com/Porto-08/Bikecraft",
+    "link": "https://porto-08.github.io/Bikecraft/",
     "linkGit": "https://github.com/Porto-08/Bikecraft",
     "tecnologies": ["Html", "Css"]
   },
@@ -160,7 +181,7 @@
     "description": "Projeto realizado junto a NLW. Projeto consiste em uma aplicação de enviar perguntas para streamers. Login realizado com Firebase, com uma conta Google.",
     "pathPhoto": "/letmeask.png",
     "type": "front",
-    "link": "https://github.com/Porto-08/letmeask",
+    "link": "#",
     "linkGit": "https://github.com/Porto-08/letmeask",
     "tecnologies": ["React", "Typescript", "Sass"]
   },

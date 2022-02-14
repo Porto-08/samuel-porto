@@ -19,7 +19,7 @@ const Sidenav = () => {
               role="button"
               aria-label="Turn on Dark Mode"
               title="Trocar para Light Mode"
-              />
+            />
           </i>
         ) : (
           <i role="button">
@@ -33,7 +33,11 @@ const Sidenav = () => {
       </button>
 
       <nav className={styles.navContainer}>
-        <h2>Dev.</h2>
+        <h2>
+          <Link href="/">
+            Dev.
+          </Link>
+        </h2>
 
         <ul>
           <li title="Home">

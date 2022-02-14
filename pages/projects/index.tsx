@@ -34,7 +34,7 @@ const Projects: NextPage = () => {
       back?.classList.remove("active");
       all?.classList.remove("active");
 
-      setProjectsFilter(filtered);
+      setProjectsFilter([...filtered]);
     }
 
     if (filter === "back") {
@@ -46,7 +46,7 @@ const Projects: NextPage = () => {
       front?.classList.remove("active");
       all?.classList.remove("active");
 
-      setProjectsFilter(filtered);
+      setProjectsFilter([...filtered]);
     }
 
     if (filter === "") {
@@ -66,6 +66,7 @@ const Projects: NextPage = () => {
     <>
       <Head>
         <title>Samuel Porto - Meus Projetos</title>
+
       </Head>
 
       <div className={`${styles.container} fadeInTop`} id="containerProjects">
@@ -77,44 +78,44 @@ const Projects: NextPage = () => {
             </div>
           </li>
           <li onClick={() => setFilter("")} id="all">
-            All
+            All ({projectsJson.length})
           </li>
           <li onClick={() => setFilter("front")} id="front">
-            Front-End
+            Front-End ({projectsJson.filter((project) => project.type === "front").length})
           </li>
           <li onClick={() => setFilter("back")} id="back">
-            Back-End
+            Back-End  ({projectsJson.filter((project) => project.type === "back").length})
           </li>
         </ul>
 
         <section className={`${styles.projects}`}>
           {!projectsFilter
             ? projectsJson.map((project: ProjectsData) => {
-                return (
-                  <CardProject
-                    key={project.id}
-                    name={project.name}
-                    imgPath={project.pathPhoto}
-                    link={project.link}
-                    linkGit={project.linkGit}
-                    tecnologies={project.tecnologies}
-                    description={project.description}
-                  />
-                );
-              })
+              return (
+                <CardProject
+                  key={project.id}
+                  name={project.name}
+                  imgPath={project.pathPhoto}
+                  link={project.link}
+                  linkGit={project.linkGit}
+                  tecnologies={project.tecnologies}
+                  description={project.description}
+                />
+              );
+            })
             : projectsFilter.map((project: ProjectsData) => {
-                return (
-                  <CardProject
-                    key={project.id}
-                    name={project.name}
-                    imgPath={project.pathPhoto}
-                    link={project.link}
-                    linkGit={project.linkGit}
-                    tecnologies={project.tecnologies}
-                    description={project.description}
-                  />
-                );
-              })}
+              return (
+                <CardProject
+                  key={project.id}
+                  name={project.name}
+                  imgPath={project.pathPhoto}
+                  link={project.link}
+                  linkGit={project.linkGit}
+                  tecnologies={project.tecnologies}
+                  description={project.description}
+                />
+              )
+            })}
         </section>
       </div>
     </>
