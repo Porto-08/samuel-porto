@@ -34,7 +34,7 @@ const Projects: NextPage = () => {
       back?.classList.remove("active");
       all?.classList.remove("active");
 
-      setProjectsFilter([...filtered]);
+      setProjectsFilter(filtered);
     }
 
     if (filter === "back") {
@@ -46,7 +46,7 @@ const Projects: NextPage = () => {
       front?.classList.remove("active");
       all?.classList.remove("active");
 
-      setProjectsFilter([...filtered]);
+      setProjectsFilter(filtered);
     }
 
     if (filter === "") {
@@ -70,13 +70,11 @@ const Projects: NextPage = () => {
       </Head>
 
       <div className={`${styles.container} fadeInTop`} id="containerProjects">
+        <div>
+          <h1>Meus Projetos</h1>
+          <span>Conheça meu trabalho e projetos!</span>
+        </div>
         <ul className={styles.filterList}>
-          <li>
-            <div>
-              <h1>Meus Projetos</h1>
-              <span>Conheça meu trabalho e projetos!</span>
-            </div>
-          </li>
           <li onClick={() => setFilter("")} id="all">
             All ({projectsJson.length})
           </li>

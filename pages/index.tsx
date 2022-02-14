@@ -13,14 +13,15 @@ const Home: NextPage = () => {
         src={profile}
         height={325}
         width={325}
-        alt="profile picture"
-        title="Profile picture"
+        alt="Samuel Porto - Perfil"
+        title="Samuel Porto - Perfil"
         objectFit="cover"
         priority
+        draggable={false}
       />
 
       <div className={styles.description}>
-        <h2 title="Me!">Samuel Porto</h2>
+        <h2 title="Samuel Porto">Samuel Porto</h2>
 
         <p>
           Sou um Desenvolvedor FullStack que ama resolver problemas e passar
@@ -31,7 +32,7 @@ const Home: NextPage = () => {
           <a
             href="https://github.com/Porto-08"
             target="_blank"
-            title="My github"
+            title="Visitar github"
             rel="noreferrer"
           >
             <FaGithub />
@@ -39,7 +40,7 @@ const Home: NextPage = () => {
           <a
             href="https://www.instagram.com/porto__0/"
             target="_blank"
-            title="My instagram"
+            title="Visitar instagram"
             rel="noreferrer"
           >
             <FaInstagram />
@@ -47,7 +48,7 @@ const Home: NextPage = () => {
           <a
             href="https://www.linkedin.com/in/samuelporto/"
             target="_blank"
-            title="My linkedin"
+            title="Visitar linkedin"
             rel="noreferrer"
           >
             <FaLinkedin />
@@ -55,7 +56,7 @@ const Home: NextPage = () => {
           <a
             href="https://api.whatsapp.com/send?phone=5511980540272"
             target="_blank"
-            title="My WhatsApp"
+            title="Enviar uma mensagem por WhatsApp"
             rel="noreferrer"
           >
             <FaWhatsapp />
