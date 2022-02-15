@@ -5,6 +5,7 @@ import profile from "../assets/img/eu.jpeg";
 import styles from "./styles.module.scss";
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import DownloadCv from "../components/DownloadCv";
+import Skeleton from "../helper/Skeleton";
 
 const Home: NextPage = () => {
   return (
