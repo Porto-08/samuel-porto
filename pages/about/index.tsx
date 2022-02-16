@@ -48,7 +48,7 @@ const About: NextPage = () => {
 
           <div className={styles.information}>
             <section>
-              <h1>Samuel Porto - Fullstack Developer</h1>
+              <h1>Samuel Porto - Dev. Fullstack</h1>
 
               <p>
                 Tive o primeiro contato com programação em um curso tecnico,

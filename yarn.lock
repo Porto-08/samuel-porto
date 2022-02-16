@@ -2551,6 +2551,11 @@ react-spinners@^0.11.0:
   dependencies:
     "@emotion/react" "^11.1.4"
 
+react-text-typist@^1.0.9:
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/react-text-typist/-/react-text-typist-1.0.9.tgz#c735262a899d142bdafdd4d8423ab14d34efa45c"
+  integrity sha512-NiBY/TWOoHlRkamPV4atmrLUDt8MYiK+omSWPzhpmTyQLCePWc/KogC44/j5YjltUQ8VvUTod5TE3rmVANnOyA==
+
 react-toastify@^8.1.0:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-8.1.0.tgz#acaca4e8c4415c8474562dd84a14e6f390ed7f17"

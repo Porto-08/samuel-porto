@@ -5,6 +5,7 @@ import profile from "../assets/img/eu.jpeg";
 import styles from "./styles.module.scss";
 import { FaGithub, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import DownloadCv from "../components/DownloadCv";
+import Typist from 'react-text-typist';
 
 const Home: NextPage = () => {
   return (
@@ -20,7 +21,9 @@ const Home: NextPage = () => {
       />
 
       <div className={styles.description}>
-        <h2 title="Me!">Samuel Porto</h2>
+        <h1 title="Me!">
+          <Typist sentences={["Samuel Porto", "Dev. Fullstack", ""]} cursorSmooth/>
+        </h1>
 
         <p>
           Sou um Desenvolvedor FullStack que ama resolver problemas e passar
