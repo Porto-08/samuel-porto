@@ -74,6 +74,7 @@ const Contact = () => {
       <Head>
         <title>Samuel Porto - Contato</title>
       </Head>
+      
       <ToastContainer />
 
       <h1 title="Contato">Contato</h1>

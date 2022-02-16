@@ -2,6 +2,7 @@ import styles from "./styles.module.scss";
 import Image from "next/image";
 import {FiGithub} from "react-icons/fi";
 import {IoIosRocket} from "react-icons/io"; 
+import Skeleton from "../../helper/Skeleton";
 interface cardProjectInterface {
   key: number;
   link: string;
@@ -24,7 +25,7 @@ const CardProject = ({
     <div className={`${styles.container} fadeInTop`}>
       <div>
         <a href={link} target="_blank" rel="noreferrer">
-          <img src={imgPath} alt="Project Card" title={name} />
+          <Skeleton src={imgPath} alt="Project Card" title={name} />
         </a>
       </div>
 

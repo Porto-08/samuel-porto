@@ -40,9 +40,9 @@ const About: NextPage = () => {
         <div className={styles.about}>
           <div>
             {dark === true ? (
-              <Image src={svgHeaderDark} alt="profile svg" />
+              <Image src={svgHeaderDark} alt="Sobre mim" draggable={false}/>
             ) : (
-              <Image src={svgHeaderLight} alt="profile svg" />
+              <Image src={svgHeaderLight} alt="Sobre mim" draggable={false}/>
             )}
           </div>
 
