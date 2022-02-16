@@ -23,7 +23,7 @@ const Home: NextPage = () => {
 
       <div className={styles.description}>
         <h1 title="Me!">
-          <Typist sentences={["Samuel Porto", "Dev. Fullstack", ""]} cursorSmooth/>
+          <Typist sentences={["Samuel Porto", "Dev. Fullstack"]} cursorSmooth/>
         </h1>
 
         <p>
