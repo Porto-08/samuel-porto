@@ -1,5 +1,5 @@
 # Portfólio 
-Produzi meu portfólio para poder mostrar mais sobre meus projetos e trabalhos realizados. Repaase para next para estudar o framework e melhorar 
+Produzi meu portfólio para poder mostrar mais sobre meus projetos e trabalhos realizados. Repassei para next para estudar o framework e melhorar 
 o desempenho e SEO do site.
 
 ## Home
@@ -13,5 +13,5 @@ o desempenho e SEO do site.
 
 
 ## Instalação 
-- npm 
-- npm run dev
+- npm / yarn
+- npm run dev / yarn dev
