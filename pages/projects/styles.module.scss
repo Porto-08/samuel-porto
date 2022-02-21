@@ -56,4 +56,27 @@
       gap: 20px;
     }
   }
+
+  .footer {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    gap: 5px;
+
+
+    span {
+      font-size: clamp(1rem, 1.25vw, 1.25rem);
+      font-style: italic;
+      font-weight: 500;
+      color: var(--title-color);
+    }
+
+    p {
+      
+      font-size: clamp(1rem, 1.25vw, 1.25rem);
+      font-style: italic;
+      font-weight: 500;
+      color: var(--text-color);
+    }
+  }
 }

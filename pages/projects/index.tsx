@@ -66,7 +66,6 @@ const Projects: NextPage = () => {
     <>
       <Head>
         <title>Samuel Porto - Meus Projetos</title>
-
       </Head>
 
       <div className={`${styles.container} fadeInTop`} id="containerProjects">
@@ -115,6 +114,12 @@ const Projects: NextPage = () => {
               )
             })}
         </section>
+
+        <div className={styles.footer}>
+          <span>Chegou ao fim :(</span>
+
+          <p>Sempre estou desenvolvendo novas aplicações, então fica de olho em!</p>
+        </div>
       </div>
     </>
   );
