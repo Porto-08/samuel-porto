@@ -67,6 +67,16 @@
           font-style: normal;
           letter-spacing: 0.5px;
         }
+
+        a {
+          color: var(--text-color);
+          text-decoration: none;
+
+          &:hover {
+            color: var(--hover-text-color);
+            text-decoration: underline;
+          }
+        }
       }
 
       div {

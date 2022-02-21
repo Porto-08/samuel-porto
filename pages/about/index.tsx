@@ -40,9 +40,9 @@ const About: NextPage = () => {
         <div className={styles.about}>
           <div>
             {dark === true ? (
-              <Image src={svgHeaderDark} alt="Sobre mim" draggable={false}/>
+              <Image src={svgHeaderDark} alt="Sobre mim" draggable={false} />
             ) : (
-              <Image src={svgHeaderLight} alt="Sobre mim" draggable={false}/>
+              <Image src={svgHeaderLight} alt="Sobre mim" draggable={false} />
             )}
           </div>
 
@@ -51,7 +51,7 @@ const About: NextPage = () => {
               <h1>Samuel Porto - Dev. Fullstack</h1>
 
               <p>
-                Tive o primeiro contato com programação em um curso tecnico,
+                Tive o primeiro contato com programação com a minha formação no curso tecnico da Etec,
                 onde me apaixonei por este novo mundo na minha vida. Eu gosto
                 muito de ajudar a resolver os problemas das pessoas e de
                 compartilhar meus conhecimentos com elas.
@@ -72,15 +72,25 @@ const About: NextPage = () => {
                   Email: <span>samuelalcala2001@outlook.com</span>
                 </li>
                 <li>
-                  Celular (Whats): <span>55+ (11) 980540272</span>
+                  Celular (Whats):
+                  <span>
+                    <a
+                      href="https://api.whatsapp.com/send?phone=5511980540272"
+                      target="_blank"
+                      rel="noreferrer"
+                      title="Conhecer Tecnologia"
+                    >
+                      55+ (11) 980540272
+                    </a>
+                  </span>
                 </li>
                 <li>
                   Cursando:
                   <span>Faculdade Impacta - 1º Semestre</span>
                 </li>
                 <li>
-                  Formação:
-                  <span>Etec - Desenvolvimentos de Sistemas</span>
+                  idioma:
+                  <span>Inglês - intermediário</span>
                 </li>
               </ul>
             </section>
