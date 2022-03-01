@@ -69,7 +69,14 @@ const About: NextPage = () => {
                   Localização: <span>São Paulo - Brazil</span>
                 </li>
                 <li>
-                  Email: <span>samuelalcala2001@outlook.com</span>
+                  Email:
+                  <span>
+                    <a
+                      href="mailto:samuelalcala2001@outlook.com?Subject=Bora%20falar%20de%20projetos%3F&Body=Sua%20mensagem..."
+                      title="Mandar um email">
+                      samuelalcala2001@outlook.com
+                    </a>
+                  </span>
                 </li>
                 <li>
                   Celular (Whats):
@@ -78,7 +85,7 @@ const About: NextPage = () => {
                       href="https://api.whatsapp.com/send?phone=5511980540272"
                       target="_blank"
                       rel="noreferrer"
-                      title="Conhecer Tecnologia"
+                      title="mandar uma mensagem por Whatsapp"
                     >
                       55+ (11) 980540272
                     </a>
@@ -86,7 +93,17 @@ const About: NextPage = () => {
                 </li>
                 <li>
                   Cursando:
-                  <span>Faculdade Impacta - 1º Semestre</span>
+                  <span>
+                    <a
+                      href="https://www.impacta.edu.br/"
+                      target="_blank"
+                      rel="noreferrer"
+                      title="mandar uma mensagem por Whatsapp"
+                    >
+
+                      Faculdade Impacta - 1º Semestre
+                    </a>
+                  </span>
                 </li>
                 <li>
                   idioma:

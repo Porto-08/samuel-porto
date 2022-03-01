@@ -24,7 +24,7 @@
   
   span {
     overflow: visible !important;
-    
+    font-size: clamp(2rem, 2.5vw, 3rem) !important;
     img {
       width: 350px !important;
       height: 350px !important;
@@ -38,8 +38,8 @@
       }
       
       @media (max-width: 768px) {
-        width: 250px;
-        height: 250px;
+        width: 200px !important;
+        height: 200px !important;
       }
     }
   }
@@ -51,10 +51,6 @@
     gap: 20px;
     
     width: auto;
-
-    h1 {
-      width: 525px;
-    }
 
     span {
       margin: 0;
