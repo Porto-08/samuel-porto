@@ -44,6 +44,11 @@ const Contact = () => {
           service_id: "service_ttioyn9",
           template_id: "template_tzs1q99",
           user_id: "user_22xaQbtww7rTCYUpasb5c",
+          template_params: {
+            user_name: name.current.value,
+            user_email: email.current.value,
+            message: textMessage.current.value,
+          }
         }
       );
 
