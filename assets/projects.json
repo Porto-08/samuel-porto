@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "Wildbeast",
-    "description": "Project carried out to learn Grid layout. It consists of a blog where you can see information about certain animals (only Lobo available). Grid really makes responsiveness very smooth to do.",
+    "description": "O projeto Consiste em um blog onde é possível ver informações sobre determinados animais (apenas Lobo disponível). Projeto realizado para aprendizado de Grid layout.",
     "pathPhoto": "/wildbeast.png",
     "type": "front",
     "link": "https://porto-08.github.io/Wildbeast/",

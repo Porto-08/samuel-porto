@@ -12,9 +12,9 @@
   box-shadow: 0px 0px 5px 0.5px var(--title-color);
   
   transition: 0.3s ease;
-  
+    
   &:hover {
     box-shadow: 0px 0px 7px 0.5px var(--title-color);
-    transform: scale(1.1);
+    transform: scale(.9);
   }
 }

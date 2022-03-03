@@ -1,12 +1,19 @@
 import React from "react";
 import styles from "./styles.module.scss";
 
+
+
+interface ITecnologies {
+  title: string;
+  link: string;
+}
+
 interface IExperiencesProps {
   title: string;
   date: string;
   description: string;
   linkWebsite: string;
-  technologies: string[];
+  technologies: ITecnologies[];
 }
 
 const Experiences = ({
@@ -16,7 +23,7 @@ const Experiences = ({
   description,
   linkWebsite,
 }: IExperiencesProps) => {
-    
+
   return (
     <div className={styles.experienceBox}>
       <header>
@@ -42,14 +49,14 @@ const Experiences = ({
 
         {technologies.map((technology) => {
           return (
-            <li key={technology}>
+            <li key={technology.title}>
               <a
-                href="https://reactjs.org/"
+                href={technology.link}
                 target="_blank"
                 rel="noreferrer"
                 title="Conhecer Tecnologia"
               >
-                {technology}
+                {technology.title}
               </a>
             </li>
           );

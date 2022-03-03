@@ -144,22 +144,30 @@ const About: NextPage = () => {
         </div>
 
         <div className={styles.experiences}>
-          <h3>Experiências</h3>
+          <h2>Experiências</h2>
 
           <Experiences
-            title="Bizsys (startup) - Fullstack Developer"
-            date="Junho 2021 - Atual"
-            description="Desenvolvimento de web apps e projetos especias com ReactJs e Unity. Desenvolvimento e Manutenção de APIs Rest com NodeJs e PHP (Laravel)"
-            linkWebsite="https://bizsys.com.br/"
-            technologies={["ReactJs", "NodeJs", "PHP", "Laravel"]}
+            title="Act Digital (Albert Einstein) - Desenvolvedor Fullstack Jr."
+            date="Março 2022 - Atual"
+            description="Desenvolvimento e manutenção de dashboards para gestão de conteúdo e de aplicações de negócios. Desenvolvimento de documentações de APIs para integração com outros sistemas."
+            linkWebsite="https://actdigital.com/pt/"
+            technologies={[{ title: "React", link: "https://reactjs.org/" }, { title: "NodeJs", link: "https://nodejs.org/en/" }]}
           />
 
           <Experiences
-            title="RecodePro (startup) - Instrutor"
-            date="Dez 2020 - Março 2021"
+            title="Bizsys (startup) - Desenvolvedor Fullstack Jr."
+            date="Junho 2021 - Fevereiro 2022"
+            description="Desenvolvimento de web apps e projetos especias com ReactJs e Unity. Desenvolvimento e Manutenção de APIs Rest com NodeJs e PHP (Laravel)"
+            linkWebsite="https://bizsys.com.br/"
+            technologies={[{ title: "React", link: "https://reactjs.org/" }, { title: "NodeJs", link: "https://nodejs.org/en/" }, { title: "PHP", link: "https://www.php.net/" }, { title: "Laravel", link: "https://laravel.com/" }]}
+          />
+
+          <Experiences
+            title="RecodePro (startup) - Monitor"
+            date="Dezembro 2020 - Março 2021"
             description="Monitoria dos alunos três vezes por semana durante as aulas, mentorias (aulas) duas vezes por semana, suporte aos alunos, correção de projetos, criação de atividades e questões para desenvolvimento da aula, tomadas de decisões junto a gestão e colegas de trabalho."
             linkWebsite="https://recodepro.org.br/"
-            technologies={["ReactJs", "React Native", "NodeJs", "Javascript"]}
+            technologies={[{ title: "React", link: "https://reactjs.org/" }, { title: "NodeJs", link: "https://nodejs.org/en/" }, { title: "React Native", link: "https://reactnative.dev/" }]}
           />
         </div>
 
