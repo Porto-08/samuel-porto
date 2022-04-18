@@ -1,5 +1,15 @@
 [
   {
+    "id": 20,
+    "name": "Valorant Informations",
+    "description": "Um jogo que estou jogando muito no momento e decidi fazer algo bacana sobre ele. No site você encontra muitas informações sobre skins, agentes, armas e muito mais.",
+    "pathPhoto": "/valorant.png",
+    "type": "front",
+    "link": "https://valorant-informations.vercel.app/",
+    "linkGit": "https://github.com/Porto-08/valorant-informations",
+    "tecnologies": ["React", "Typescript", "Styled Components", "NextJs"]
+  },
+  {
     "id": 13,
     "name": "Games Free",
     "description": "Senti que precisava produzir algo útil e também estudar NextJs, assim surgiu o 'Games Free'! O site consiste em encontrar novas aventuras em jogos gratuitos e poder se divertir sem precisar gastar dinheiro.",
