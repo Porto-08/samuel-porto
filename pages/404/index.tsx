@@ -10,19 +10,19 @@ const NotFound = () => {
   const { dark } = useContext(DarkModeContext);
   return (
     <div className={`${styles.container} fadeInTop`}>
-      <div>
-        <h1>Parece que essa pagina não existe. :(</h1>
-        <span>
-          Mas não se preoucupe, é só voltar pra <Link href="/">Home</Link>
-        </span>
-      </div>
-
       <div className={styles.imageContainer}>
         {dark ? (
-          <Image src={NotFoundDark} alt="404 - Page not found" />
+          <Image src={NotFoundDark} layout="responsive" alt="404 - Page not found" />
         ) : (
-          <Image src={NotFoundLight} alt="404 - Page not found" />
+          <Image src={NotFoundLight} layout="responsive" alt="404 - Page not found" />
         )}
+      </div>
+
+      <div>
+        <h1>Você foi muito longe! Aqui não há nada.</h1>
+        <span>
+          Mas não se preoucupe, é só voltar pra <Link href="/">Home</Link>.
+        </span>
       </div>
     </div>
   );

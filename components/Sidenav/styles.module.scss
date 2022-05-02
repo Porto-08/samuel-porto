@@ -2,10 +2,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: start;
-  padding-top: 250px;
+  justify-content: center;  
 
-  height: 100%;
+  height: 100%; 
   
   text-align: left;
   background-color: var(--background-side-color);
@@ -15,10 +14,9 @@
 
   .changeMode {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 20px;
+    left: 20px;
 
-    margin: 20px;
     border: 0;
     background: none;
 
@@ -33,7 +31,6 @@
       }
     }
   }
-
 
   .navContainer {
     display: flex;

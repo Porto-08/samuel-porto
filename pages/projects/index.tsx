@@ -19,6 +19,9 @@ interface ProjectsData {
 const Projects: NextPage = () => {
   const [projectsFilter, setProjectsFilter] = useState<Array<ProjectsData>>();
   const [filter, setFilter] = useState<string>("");
+  const allProjectsNumber = projectsJson.length;
+  const frontEndProjectsNumber = projectsJson.filter((project) => project.type === "front").length
+  const backEndProjectsNumber = projectsJson.filter((project) => project.type === "back").length
 
   const getProjectsFilter = () => {
     const front = document.querySelector("#front");
@@ -73,15 +76,16 @@ const Projects: NextPage = () => {
           <h1>Meus Projetos</h1>
           <span>Conheça meu trabalho e projetos!</span>
         </div>
+        
         <ul className={styles.filterList}>
           <li onClick={() => setFilter("")} id="all">
-            All ({projectsJson.length})
+            Todos ({allProjectsNumber})
           </li>
           <li onClick={() => setFilter("front")} id="front">
-            Front-End ({projectsJson.filter((project) => project.type === "front").length})
+            Front-End ({frontEndProjectsNumber})
           </li>
           <li onClick={() => setFilter("back")} id="back">
-            Back-End  ({projectsJson.filter((project) => project.type === "back").length})
+            Back-End  ({backEndProjectsNumber})
           </li>
         </ul>
 

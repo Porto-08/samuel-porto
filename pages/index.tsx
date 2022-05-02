@@ -70,7 +70,9 @@ const Home: NextPage = () => {
         <section className={styles.buttons}>
           <DownloadCv />
 
-          <Link href="/contact">Contato</Link>
+          <Link href="/contact">
+            Contato
+          </Link>
         </section>
       </div>
     </div>
