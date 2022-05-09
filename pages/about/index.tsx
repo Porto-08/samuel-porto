@@ -149,7 +149,11 @@ const About: NextPage = () => {
           <Experiences
             title="Act Digital (Albert Einstein) - Desenvolvedor Fullstack Jr."
             date="Março 2022 - Atual"
-            description="Desenvolvimento e manutenção de dashboards para gestão de conteúdo e de aplicações de negócios. Desenvolvimento de documentações de APIs para integração com outros sistemas."
+            description="
+              - Desenvolvimento e manutenção de Dashboards com React/Typescript.
+              - Desenvolvimento e manutenção de APis com NodeJs/Typescript 
+              - Scrum (Planning, Review, 15 dias de Sprint)
+            "
             linkWebsite="https://actdigital.com/pt/"
             technologies={[{ title: "React", link: "https://reactjs.org/" }, { title: "NodeJs", link: "https://nodejs.org/en/" }]}
           />
