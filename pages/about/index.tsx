@@ -36,9 +36,10 @@ const About: NextPage = () => {
       <Head>
         <title>Samuel Porto - Sobre mim</title>
       </Head>
+
       <div className={`${styles.container}  fadeInTop`}>
         <div className={styles.about}>
-          <div>
+          <div className={styles.image}>
             {dark === true ? (
               <Image src={svgHeaderDark} alt="Sobre mim" draggable={false} />
             ) : (
@@ -51,10 +52,10 @@ const About: NextPage = () => {
               <h1>Samuel Porto - Dev. Fullstack</h1>
 
               <p>
-                Tive o primeiro contato com programação com a minha formação no curso tecnico da Etec,
-                onde me apaixonei por este novo mundo na minha vida. Eu gosto
-                muito de ajudar a resolver os problemas das pessoas e de
-                compartilhar meus conhecimentos com elas.
+                Tive o primeiro contato com programação com a minha formação no
+                curso tecnico da Etec, onde me apaixonei por este novo mundo na
+                minha vida. Eu gosto muito de ajudar a resolver os problemas das
+                pessoas e de compartilhar meus conhecimentos com elas.
                 <br />
                 <strong>#Never stop learning!</strong>
               </p>
@@ -73,7 +74,8 @@ const About: NextPage = () => {
                   <span>
                     <a
                       href="mailto:samuelalcala2001@outlook.com?Subject=Bora%20falar%20de%20projetos%3F&Body=Sua%20mensagem..."
-                      title="Mandar um email">
+                      title="Mandar um email"
+                    >
                       samuelalcala2001@outlook.com
                     </a>
                   </span>
@@ -100,7 +102,6 @@ const About: NextPage = () => {
                       rel="noreferrer"
                       title="mandar uma mensagem por Whatsapp"
                     >
-
                       Faculdade Impacta - 1º Semestre
                     </a>
                   </span>
@@ -151,7 +152,10 @@ const About: NextPage = () => {
             date="Março 2022 - Atual"
             description="Desenvolvimento e manutenção de dashboards para gestão de conteúdo e de aplicações de negócios. Desenvolvimento de documentações de APIs para integração com outros sistemas."
             linkWebsite="https://actdigital.com/pt/"
-            technologies={[{ title: "React", link: "https://reactjs.org/" }, { title: "NodeJs", link: "https://nodejs.org/en/" }]}
+            technologies={[
+              { title: "React", link: "https://reactjs.org/" },
+              { title: "NodeJs", link: "https://nodejs.org/en/" },
+            ]}
           />
 
           <Experiences
@@ -159,7 +163,12 @@ const About: NextPage = () => {
             date="Junho 2021 - Fevereiro 2022"
             description="Desenvolvimento de web apps e projetos especias com ReactJs e Unity. Desenvolvimento e Manutenção de APIs Rest com NodeJs e PHP (Laravel)"
             linkWebsite="https://bizsys.com.br/"
-            technologies={[{ title: "React", link: "https://reactjs.org/" }, { title: "NodeJs", link: "https://nodejs.org/en/" }, { title: "PHP", link: "https://www.php.net/" }, { title: "Laravel", link: "https://laravel.com/" }]}
+            technologies={[
+              { title: "React", link: "https://reactjs.org/" },
+              { title: "NodeJs", link: "https://nodejs.org/en/" },
+              { title: "PHP", link: "https://www.php.net/" },
+              { title: "Laravel", link: "https://laravel.com/" },
+            ]}
           />
 
           <Experiences
@@ -167,7 +176,11 @@ const About: NextPage = () => {
             date="Dezembro 2020 - Março 2021"
             description="Monitoria dos alunos três vezes por semana durante as aulas, mentorias (aulas) duas vezes por semana, suporte aos alunos, correção de projetos, criação de atividades e questões para desenvolvimento da aula, tomadas de decisões junto a gestão e colegas de trabalho."
             linkWebsite="https://recodepro.org.br/"
-            technologies={[{ title: "React", link: "https://reactjs.org/" }, { title: "NodeJs", link: "https://nodejs.org/en/" }, { title: "React Native", link: "https://reactnative.dev/" }]}
+            technologies={[
+              { title: "React", link: "https://reactjs.org/" },
+              { title: "NodeJs", link: "https://nodejs.org/en/" },
+              { title: "React Native", link: "https://reactnative.dev/" },
+            ]}
           />
         </div>
 

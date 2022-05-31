@@ -26,9 +26,7 @@ const Projects: NextPage = () => {
     const all = document.querySelector("#all");
 
     if (filter === "front") {
-      const filtered = projectsJson.filter(
-        (project) => project.type === filter
-      );
+      const filtered = projectsJson.filter(project => project.type === filter);
 
       front?.classList.add("active");
       back?.classList.remove("active");
@@ -38,9 +36,7 @@ const Projects: NextPage = () => {
     }
 
     if (filter === "back") {
-      const filtered = projectsJson.filter(
-        (project) => project.type === filter
-      );
+      const filtered = projectsJson.filter(project => project.type === filter);
 
       back?.classList.add("active");
       front?.classList.remove("active");
@@ -73,53 +69,50 @@ const Projects: NextPage = () => {
           <h1>Meus Projetos</h1>
           <span>Conheça meu trabalho e projetos!</span>
         </div>
+
         <ul className={styles.filterList}>
           <li onClick={() => setFilter("")} id="all">
             All ({projectsJson.length})
           </li>
           <li onClick={() => setFilter("front")} id="front">
-            Front-End ({projectsJson.filter((project) => project.type === "front").length})
+            Front-End (
+            {projectsJson.filter(project => project.type === "front").length})
           </li>
           <li onClick={() => setFilter("back")} id="back">
-            Back-End  ({projectsJson.filter((project) => project.type === "back").length})
+            Back-End (
+            {projectsJson.filter(project => project.type === "back").length})
           </li>
         </ul>
 
         <section className={`${styles.projects}`}>
           {!projectsFilter
             ? projectsJson.map((project: ProjectsData) => {
-              return (
-                <CardProject
-                  key={project.id}
-                  name={project.name}
-                  imgPath={project.pathPhoto}
-                  link={project.link}
-                  linkGit={project.linkGit}
-                  tecnologies={project.tecnologies}
-                  description={project.description}
-                />
-              );
-            })
+                return (
+                  <CardProject
+                    key={project.id}
+                    name={project.name}
+                    imgPath={project.pathPhoto}
+                    link={project.link}
+                    linkGit={project.linkGit}
+                    tecnologies={project.tecnologies}
+                    description={project.description}
+                  />
+                );
+              })
             : projectsFilter.map((project: ProjectsData) => {
-              return (
-                <CardProject
-                  key={project.id}
-                  name={project.name}
-                  imgPath={project.pathPhoto}
-                  link={project.link}
-                  linkGit={project.linkGit}
-                  tecnologies={project.tecnologies}
-                  description={project.description}
-                />
-              )
-            })}
+                return (
+                  <CardProject
+                    key={project.id}
+                    name={project.name}
+                    imgPath={project.pathPhoto}
+                    link={project.link}
+                    linkGit={project.linkGit}
+                    tecnologies={project.tecnologies}
+                    description={project.description}
+                  />
+                );
+              })}
         </section>
-
-        <div className={styles.footer}>
-          <span>Chegou ao fim :(</span>
-
-          <p>Sempre estou desenvolvendo novas aplicações, então fica de olho em!</p>
-        </div>
       </div>
     </>
   );

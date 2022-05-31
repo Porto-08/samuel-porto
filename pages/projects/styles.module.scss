@@ -25,7 +25,6 @@
     align-items: baseline;
     gap: 30px;
 
-
     li {
       cursor: pointer;
       color: var(--title-color);
@@ -64,7 +63,6 @@
     place-items: center;
     gap: 5px;
 
-
     span {
       font-size: clamp(1rem, 1.25vw, 1.25rem);
       font-style: italic;
@@ -73,7 +71,6 @@
     }
 
     p {
-      
       font-size: clamp(1rem, 1.25vw, 1.25rem);
       font-style: italic;
       font-weight: 500;
