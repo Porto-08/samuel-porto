@@ -1,7 +1,5 @@
 import React, {
   FormEvent,
-  MutableRefObject,
-  useEffect,
   useRef,
   useState,
 } from "react";
@@ -9,7 +7,6 @@ import Head from "next/head";
 import { GiRocketThruster } from "react-icons/gi";
 import { FaRocket } from "react-icons/fa";
 import styles from "./styles.module.scss";
-import emailjs from "emailjs-com";
 import { ToastContainer, toast } from "react-toastify";
 import axios from "axios";
 
@@ -82,7 +79,7 @@ const Contact = () => {
       
       <ToastContainer />
 
-      <h1 title="Contato">Contato</h1>
+      <h1>Contato</h1>
       <span>Bora falar de projetos?</span>
 
       <form ref={form} onSubmit={sendEmail}>
@@ -117,7 +114,7 @@ const Contact = () => {
         ></textarea>
 
         {loading === true ? (
-          <button type="submit" title="Enviar email" disabled>
+          <button type="submit" title="Enviando email" disabled>
             <div className={styles.loader}></div>
           </button>
         ) : (

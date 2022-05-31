@@ -1,15 +1,14 @@
 import "../styles/globals.scss";
 import "../styles/reset.scss";
 import "../styles/animations.scss";
-
 import "react-toastify/dist/ReactToastify.css";
+
 import type { AppProps } from "next/app";
 import { DarkModeStorage } from "../context/DarkModeContext";
 import Sidenav from "../components/Sidenav";
 import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
-import { init } from "emailjs-com";
 import { useState } from "react";
 import { HashLoader } from "react-spinners";
 
