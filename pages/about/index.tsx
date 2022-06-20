@@ -11,6 +11,7 @@ import {
   FaWhatsapp,
   FaGithub,
   FaLinkedin,
+  FaPython,
 } from "react-icons/fa";
 import {
   SiMysql,
@@ -20,6 +21,7 @@ import {
   SiInsomnia,
   SiVisualstudiocode,
   SiNextdotjs,
+  SiStyledcomponents,
 } from "react-icons/si";
 import { useDarkMode } from "../../context/DarkModeContext";
 import { NextPage } from "next";
@@ -30,6 +32,9 @@ import Experiences from "../../components/Experiences";
 
 const About: NextPage = () => {
   const { dark } = useDarkMode();
+
+
+  const idade = new Date().getFullYear() - 2001;
 
   return (
     <>
@@ -52,10 +57,9 @@ const About: NextPage = () => {
               <h1>Samuel Porto - Dev. Fullstack</h1>
 
               <p>
-                Tive o primeiro contato com programação com a minha formação no
-                curso tecnico da Etec, onde me apaixonei por este novo mundo na
-                minha vida. Eu gosto muito de ajudar a resolver os problemas das
-                pessoas e de compartilhar meus conhecimentos com elas.
+                Sou um desenvolvedor fullstack e tenho experiência em desenvolvimento de aplicações web
+                com <strong>Reactjs</strong> e <strong>NodeJs</strong> (Sempre com <strong>Typescript</strong>).
+                Trabalhei para startups e empresas de variados seguimentos como: Educação, OOH e Saúde.
                 <br />
                 <strong>#Never stop learning!</strong>
               </p>
@@ -64,10 +68,10 @@ const About: NextPage = () => {
             <section className={styles.listProfile}>
               <ul>
                 <li>
-                  Idade: <span>20</span>
+                  Idade: <span>{idade}</span>
                 </li>
                 <li>
-                  Localização: <span>São Paulo - Brazil</span>
+                  Localização: <span>São Paulo - Brasil</span>
                 </li>
                 <li>
                   Email:
@@ -100,9 +104,9 @@ const About: NextPage = () => {
                       href="https://www.impacta.edu.br/"
                       target="_blank"
                       rel="noreferrer"
-                      title="mandar uma mensagem por Whatsapp"
+                      title="Conhecer a Impacta"
                     >
-                      Faculdade Impacta - 1º Semestre
+                      Faculdade Impacta - 2º Semestre
                     </a>
                   </span>
                 </li>
@@ -118,7 +122,7 @@ const About: NextPage = () => {
                 href="https://api.whatsapp.com/send?phone=5511980540272"
                 target="_blank"
                 rel="noreferrer"
-                title="Conhecer Tecnologia"
+                title="Mandar uma mensagem por Whatsapp"
               >
                 <FaWhatsapp />
               </a>
@@ -127,7 +131,7 @@ const About: NextPage = () => {
                 href="https://github.com/Porto-08"
                 target="_blank"
                 rel="noreferrer"
-                title="Conhecer Tecnologia"
+                title="Ver perfil no Github"
               >
                 <FaGithub />
               </a>
@@ -136,7 +140,7 @@ const About: NextPage = () => {
                 href="https://linkedin.com/in/samuelporto"
                 target="_blank"
                 rel="noreferrer"
-                title="Conhecer Tecnologia"
+                title="Ver perfil no Linkedin"
               >
                 <FaLinkedin />
               </a>
@@ -151,14 +155,16 @@ const About: NextPage = () => {
             title="Act Digital (Albert Einstein) - Desenvolvedor Fullstack Jr."
             date="Março 2022 - Atual"
             description="
-              - Desenvolvimento e manutenção de Dashboards com React/Typescript.
-              - Desenvolvimento e manutenção de APis com NodeJs/Typescript 
-              - Scrum (Planning, Review, 15 dias de Sprint)
+              Desenvolvimento e manutenção de Dashboards com React/Typescript. 
+              Desenvolvimento e manutenção de APis com NodeJs/Typescript. 
+              Scrum (Planning, Review, 15 dias de Sprint)
             "
             linkWebsite="https://actdigital.com/pt/"
             technologies={[
               { title: "React", link: "https://reactjs.org/" },
               { title: "NodeJs", link: "https://nodejs.org/en/" },
+              { title: "Typescript", link: "https://www.typescriptlang.org/" },
+              { title: "Styled Components", link: "https://styled-components.com/" },
             ]}
           />
 
@@ -225,23 +231,13 @@ const About: NextPage = () => {
               </a>
 
               <a
-                href="https://getbootstrap.com/"
+                href="https://styled-components.com/"
                 target="_blank"
                 rel="noreferrer"
                 title="Conhecer Tecnologia"
               >
-                <FaBootstrap />
-                <span>Bootstrap</span>
-              </a>
-
-              <a
-                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                target="_blank"
-                rel="noreferrer"
-                title="Conhecer Tecnologia"
-              >
-                <SiJavascript />
-                <span>JavaScript</span>
+                <SiStyledcomponents />
+                <span>Styled Components</span>
               </a>
 
               <a
@@ -269,6 +265,17 @@ const About: NextPage = () => {
                 <FaNode />
 
                 <span>NodeJs</span>
+              </a>
+
+              <a
+                href="https://www.python.org/"
+                target="_blank"
+                rel="noreferrer"
+                title="Conhecer Tecnologia"
+              >
+                <FaPython />
+
+                <span>Python</span>
               </a>
 
               <a

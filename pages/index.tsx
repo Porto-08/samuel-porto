@@ -13,13 +13,14 @@ const Home: NextPage = () => {
     <div className={`${styles.container}  fadeInTop`}>
       <Image
         src={profile}
-        height={325}
-        width={325}
+        height={300}
+        width={300}
         alt="Samuel Porto - Perfil"
         title="Samuel Porto - Perfil"
         objectFit="cover"
-        priority
+        priority={true}
         draggable={false}
+        loading="eager"
       />
 
       <div className={styles.description}>

@@ -10,16 +10,6 @@
     "tecnologies": ["React", "Typescript", "Styled Components", "NextJs"]
   },
   {
-    "id": 13,
-    "name": "Games Free",
-    "description": "Senti que precisava produzir algo útil e também estudar NextJs, assim surgiu o 'Games Free'! O site consiste em encontrar novas aventuras em jogos gratuitos e poder se divertir sem precisar gastar dinheiro.",
-    "pathPhoto": "/games_free.png",
-    "type": "front",
-    "link": "https://games-free-to-play.vercel.app/",
-    "linkGit": "https://github.com/Porto-08/games-free",
-    "tecnologies": ["React", "Typescript", "Sass", "NextJs"]
-  },
-  {
     "id": 18,
     "name": "api-vendas",
     "description": "API para cadastro e venda de produtos. Utilizado o banco de dados PostgreSQL, com as melhores práticas de desenvolvimento. (Em Desenvolvimento)",
@@ -29,6 +19,7 @@
     "linkGit": "https://github.com/Porto-08/api-vendas",
     "tecnologies": ["Node"]
   },
+
   {
     "id": 19,
     "name": "api-tasklist",
@@ -38,6 +29,16 @@
     "link": "#",
     "linkGit": "https://github.com/Porto-08/api-tasklist",
     "tecnologies": ["Node"]
+  },
+  {
+    "id": 13,
+    "name": "Games Free",
+    "description": "Senti que precisava produzir algo útil e também estudar NextJs, assim surgiu o 'Games Free'! O site consiste em encontrar novas aventuras em jogos gratuitos e poder se divertir sem precisar gastar dinheiro.",
+    "pathPhoto": "/games_free.png",
+    "type": "front",
+    "link": "https://games-free-to-play.vercel.app/",
+    "linkGit": "https://github.com/Porto-08/games-free",
+    "tecnologies": ["React", "Typescript", "Sass", "NextJs"]
   },
   {
     "id": 4,
@@ -69,7 +70,7 @@
     "linkGit": "https://github.com/Porto-08/API-COMPLIMENTS",
     "tecnologies": ["Node"]
   },
-  
+
   {
     "id": 3,
     "name": "api-rest-crud-node",
@@ -80,7 +81,7 @@
     "linkGit": "https://github.com/Porto-08/API-REST-CRUD",
     "tecnologies": ["Node"]
   },
-  
+
   {
     "id": 16,
     "name": "Moderação - Bizsys",
@@ -123,8 +124,6 @@
     "linkGit": "https://github.com/Porto-08/Dogs",
     "tecnologies": ["React"]
   },
-
-  
 
   {
     "id": 5,
