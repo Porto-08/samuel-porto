@@ -9,20 +9,12 @@ import Sidenav from "../components/Sidenav";
 import Head from "next/head";
 import Router from "next/router";
 import NProgress from "nprogress";
-import { useState } from "react";
-import { HashLoader } from "react-spinners";
 
 Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
 Router.events.on("routeChangeError", () => NProgress.done());
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const [loading, setLoading] = useState<boolean>(true);
-
-  setTimeout(() => {
-    setLoading(false);
-  }, 2500);
-
   return (
     <>
       <Head>
@@ -70,21 +62,15 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
 
       <DarkModeStorage>
-        {loading ? (
-          <div className="loading">
-            <HashLoader color="#ed8d8d"  speedMultiplier={2} size={100} />
-          </div>
-        ) : (
-          <div className="container">
-            <aside className="fadeInLeft">
-              <Sidenav />
-            </aside>
+        <div className="container">
+          <aside className="fadeInLeft">
+            <Sidenav />
+          </aside>
 
-            <main className="content">
-              <Component {...pageProps} />
-            </main>
-          </div>
-        )}
+          <main className="content">
+            <Component {...pageProps} />
+          </main>
+        </div>
       </DarkModeStorage>
     </>
   );

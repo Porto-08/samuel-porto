@@ -19,10 +19,12 @@ interface ProjectsData {
 const Projects: NextPage = () => {
   const [projectsFilter, setProjectsFilter] = useState<Array<ProjectsData>>();
   const [filter, setFilter] = useState<string>("");
+
   const allProjectsNumber = projectsJson.length;
   const frontEndProjectsNumber = projectsJson.filter(
     project => project.type === "front"
   ).length;
+
   const backEndProjectsNumber = projectsJson.filter(
     project => project.type === "back"
   ).length;
@@ -92,31 +94,31 @@ const Projects: NextPage = () => {
         <section className={`${styles.projects}`}>
           {!projectsFilter
             ? projectsJson.map((project: ProjectsData) => {
-                return (
-                  <CardProject
-                    key={project.id}
-                    name={project.name}
-                    imgPath={project.pathPhoto}
-                    link={project.link}
-                    linkGit={project.linkGit}
-                    tecnologies={project.tecnologies}
-                    description={project.description}
-                  />
-                );
-              })
+              return (
+                <CardProject
+                  key={project.id}
+                  name={project.name}
+                  imgPath={project.pathPhoto}
+                  link={project.link}
+                  linkGit={project.linkGit}
+                  tecnologies={project.tecnologies}
+                  description={project.description}
+                />
+              );
+            })
             : projectsFilter.map((project: ProjectsData) => {
-                return (
-                  <CardProject
-                    key={project.id}
-                    name={project.name}
-                    imgPath={project.pathPhoto}
-                    link={project.link}
-                    linkGit={project.linkGit}
-                    tecnologies={project.tecnologies}
-                    description={project.description}
-                  />
-                );
-              })}
+              return (
+                <CardProject
+                  key={project.id}
+                  name={project.name}
+                  imgPath={project.pathPhoto}
+                  link={project.link}
+                  linkGit={project.linkGit}
+                  tecnologies={project.tecnologies}
+                  description={project.description}
+                />
+              );
+            })}
         </section>
       </div>
     </>
